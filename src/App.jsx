@@ -5,7 +5,7 @@ import { Upload, X, Search, CheckCircle2, XCircle, ArrowLeftRight, FileSpreadshe
 // ---------- Design tokens ----------
 // Palette ispirata al cartellino dell'arbitro + tabellone da stadio
 const C = {
-  pitch: "#0F3D2E",      // verde campo profondo
+  pitch: "#0F3D2E",      // verde campo profondo 0F3D2E
   pitchDark: "#0A2A1F",
   chalk: "#F6F3EA",      // bianco gesso
   ink: "#0B1F17",
@@ -142,7 +142,7 @@ function PlayerSearch({ listone, onAdd, disabledIds, accent }) {
           gap: 8,
           background: C.pitchDark,
           border: `1px solid ${C.line}`,
-          borderRadius: 10,
+          borderRadius: 20,
           padding: "10px 12px",
         }}
       >
@@ -344,7 +344,7 @@ function Colonna({ titolo, accent, listone, players, setPlayers, otherIds }) {
         gap: 12,
         background: "rgba(0,0,0,0.14)",
         border: `1px solid ${C.line}`,
-        borderRadius: 14,
+        borderRadius: 16,
         padding: 16,
         position: "relative",
         overflow: "hidden",
@@ -535,12 +535,20 @@ export default function App() {
           .verdict-stats { padding: 14px 14px 16px !important; grid-template-columns: repeat(2, 1fr) !important; }
           .manual-hint { display: none; }
         }
+
+        .btn-grow {
+          transition: transform 0.15s ease;
+        }
+
+        .btn-grow:hover {
+          transform: scale(1.05);
+        }
       `}</style>
 
       <div style={{ maxWidth: 880, margin: "0 auto" }}>
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: 30 }}>
-          <div
+          {/*<div
             style={{
               display: "inline-flex",
               alignItems: "center",
@@ -558,7 +566,7 @@ export default function App() {
             }}
           >
             <ArrowLeftRight size={13} /> Validatore scambi
-          </div>
+          </div> */}
           <h1
             style={{
               fontFamily: "'Oswald', sans-serif",
@@ -567,12 +575,13 @@ export default function App() {
               margin: 0,
               letterSpacing: 0.5,
               textShadow: "0 4px 24px rgba(0,0,0,0.25)",
+              marginBottom: 30,
             }}
           >
-            Scambio Fantacalcio
+            Scambio pasta con le cozze
           </h1>
           <p style={{ color: "rgba(246,243,234,0.6)", fontSize: 14.5, marginTop: 10 }}>
-            Carica il listone, scegli chi cedi e chi ricevi: il verdetto è automatico.
+            Scegli chi cedi e chi ricevi: il verdetto è automatico.
           </p>
         </div>
 
@@ -580,19 +589,19 @@ export default function App() {
         <div
           className="status-card"
           style={{
-            background: "rgba(11,31,23,0.55)",
-            border: `1px solid ${C.line}`,
+            //background: "rgba(11,31,23,0.55)",
+            //border: `1px solid ${C.line}`,
             borderRadius: 16,
             padding: 18,
             marginBottom: 22,
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: 14, flexWrap: "wrap" }}>
-            <div
+            {/*<div
               style={{
                 width: 42,
                 height: 42,
-                borderRadius: 10,
+                borderRadius: 100,
                 background: manualActive
                   ? "rgba(242,194,48,0.12)"
                   : autoStatus === "ok"
@@ -608,9 +617,9 @@ export default function App() {
                 size={20}
                 color={manualActive ? C.yellow : autoStatus === "ok" ? C.green : C.yellow}
               />
-            </div>
-            <div style={{ flex: 1, minWidth: 200 }}>
-              <div style={{ fontWeight: 600, fontSize: 14.5 }}>
+            </div>*/}
+            <div style={{ flex: 1, minWidth: 200,  }}>
+              <div style={{ fontWeight: 600, fontSize: 14.5, textAlign: "left" }}>
                 {manualActive
                   ? "Listone caricato manualmente (temporaneo)"
                   : autoStatus === "checking"
@@ -619,7 +628,7 @@ export default function App() {
                   ? "Listone ufficiale caricato"
                   : "Listone non disponibile"}
               </div>
-              <div style={{ fontSize: 12.5, color: "rgba(246,243,234,0.55)" }}>
+              <div style={{ fontSize: 12.5, color: "rgba(246,243,234,0.55)", textAlign: "left" }}>
                 {manualActive
                   ? `${manualFileName} · ${listone.length} calciatori · valido solo su questo dispositivo`
                   : autoStatus === "ok" && autoFetchedAt
@@ -632,6 +641,7 @@ export default function App() {
             <div style={{ display: "flex", gap: 8, flexShrink: 0 }}>
               {manualActive && autoListone.length > 0 && (
                 <button
+                  className="btn-grow"
                   onClick={tornaAlListoneUfficiale}
                   style={{
                     display: "flex",
@@ -640,8 +650,8 @@ export default function App() {
                     background: "transparent",
                     border: `1px solid ${C.line}`,
                     color: "rgba(246,243,234,0.75)",
-                    borderRadius: 10,
-                    padding: "9px 12px",
+                    borderRadius: 20,
+                    padding: "10px 14px",
                     fontSize: 12.5,
                     cursor: "pointer",
                   }}
@@ -650,16 +660,19 @@ export default function App() {
                 </button>
               )}
               <button
+                className="btn-grow"
                 onClick={() => setShowManualPanel((v) => !v)}
                 style={{
+                  width: "192px",
                   display: "flex",
                   alignItems: "center",
                   gap: 6,
-                  background: showManualPanel ? "rgba(246,243,234,0.1)" : "transparent",
+                  background: C.yellow,
+                  color: C.ink,
+                  fontWeight: 700,
                   border: `1px solid ${C.line}`,
-                  color: "rgba(246,243,234,0.75)",
-                  borderRadius: 10,
-                  padding: "9px 12px",
+                  borderRadius: 20,
+                  padding: "10px 14px",
                   fontSize: 12.5,
                   cursor: "pointer",
                 }}
@@ -688,20 +701,27 @@ export default function App() {
                 onChange={(e) => handleManualFile(e.target.files?.[0])}
                 style={{ display: "none" }}
               />
+              <span className="manual-hint" style={{ flex: 1, minWidth: 200, fontSize: 12, color: "rgba(246,243,234,0.5)", textAlign: "left" }}>
+                Utile solo se il listone ufficiale non è ancora aggiornato o non è disponibile. Vale solo per te, in
+                questo momento: non viene condiviso con gli altri utenti dell'app.
+              </span>
               <button
+                className="btn-grow"
                 onClick={() => fileInputRef.current?.click()}
                 disabled={manualLoading}
                 style={{
+                  width: "192px",
                   display: "flex",
+                  flexShrink: 0,
                   alignItems: "center",
                   gap: 8,
                   background: C.yellow,
                   color: C.ink,
-                  border: "none",
-                  borderRadius: 10,
-                  padding: "10px 16px",
+                  borderRadius: 20,
+                  padding: "10px 14px",
                   fontWeight: 700,
-                  fontSize: 13.5,
+                  fontSize: 12.5,
+                  border: `1px solid ${C.line}`,
                   cursor: manualLoading ? "default" : "pointer",
                   opacity: manualLoading ? 0.7 : 1,
                 }}
@@ -709,10 +729,6 @@ export default function App() {
                 <Upload size={15} />
                 {manualLoading ? "Lettura..." : "Scegli file Excel/CSV"}
               </button>
-              <span className="manual-hint" style={{ fontSize: 12, color: "rgba(246,243,234,0.5)", maxWidth: 360 }}>
-                Utile solo se il listone ufficiale non è ancora aggiornato o non è disponibile. Vale solo per te, in
-                questo momento: non viene condiviso con gli altri utenti dell'app.
-              </span>
               {manualError && (
                 <div style={{ width: "100%", color: "#F3B3AF", fontSize: 12.5 }}>{manualError}</div>
               )}
@@ -734,6 +750,24 @@ export default function App() {
             position: "relative",
           }}
         >
+          <h1>
+            <span
+              className="page-title"
+              style={{
+                fontFamily: "'Oswald', sans-serif",
+                fontWeight: 700,
+                fontSize: 32,
+                lineHeight: 1.3,
+                letterSpacing: 1,
+                textTransform: "uppercase",
+                textAlign: "center",
+                display: "block",
+                marginBottom: 12,
+              }}
+            >
+              Inserisci qui i giocatori da scambiare
+            </span>
+          </h1>
           <div
             className="trade-columns"
             style={{ display: "flex", gap: 24, alignItems: "stretch", position: "relative" }}
@@ -928,8 +962,13 @@ export default function App() {
           </div>
         )}
 
-        <p style={{ textAlign: "center", fontSize: 11.5, color: "rgba(246,243,234,0.35)", marginTop: 28 }}>
-          Regola: RG massimo = 3 (media 0–20) · 4 (21–40) · 5 (41–60) · 6 (60+). Valido se |ceduto − ricevuto| ≤ RG.
+        <p style={{ textAlign: "center", fontSize: 10.5, color: "rgba(246,243,234,0.35)", marginTop: 28 }}>
+          Regola: RG massimo = <br />
+          · 3 (Per gli scambi con media tra 0–20) <br />
+          · 4 (Per gli scambi con media tra 21–40) <br />
+          · 5 (Per gli scambi con media tra 41–60) <br />
+          · 6 (Per gli scambi con media oltre 60+) <br />
+          Valido se |ceduto − ricevuto| ≤ RG.
         </p>
       </div>
 
