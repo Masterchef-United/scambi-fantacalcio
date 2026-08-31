@@ -92,191 +92,191 @@
       "quot": 9
     },
     {
-      "id": "Bijlow-15",
+      "id": "Perri-15",
+      "nome": "Perri",
+      "squadra": "Torino",
+      "ruolo": "P",
+      "quot": 9
+    },
+    {
+      "id": "Bijlow-16",
       "nome": "Bijlow",
       "squadra": "Genoa",
       "ruolo": "P",
       "quot": 8
     },
     {
-      "id": "Daffara-16",
+      "id": "Daffara-17",
       "nome": "Daffara",
       "squadra": "Parma",
       "ruolo": "P",
       "quot": 7
     },
     {
-      "id": "Muric-17",
+      "id": "Muric-18",
       "nome": "Muric",
       "squadra": "Sassuolo",
       "ruolo": "P",
       "quot": 7
     },
     {
-      "id": "Stankovic F.-18",
+      "id": "Stankovic F.-19",
       "nome": "Stankovic F.",
       "squadra": "Venezia",
       "ruolo": "P",
       "quot": 6
     },
     {
-      "id": "Palmisani-19",
+      "id": "Palmisani-20",
       "nome": "Palmisani",
       "squadra": "Frosinone",
       "ruolo": "P",
       "quot": 5
     },
     {
-      "id": "Thiam-20",
+      "id": "Thiam-21",
       "nome": "Thiam",
       "squadra": "Monza",
       "ruolo": "P",
       "quot": 5
     },
     {
-      "id": "Milinkovic-Savic V.-21",
+      "id": "Milinkovic-Savic V.-22",
       "nome": "Milinkovic-Savic V.",
       "squadra": "Napoli",
       "ruolo": "P",
       "quot": 5
     },
     {
-      "id": "Desplanches-22",
+      "id": "Desplanches-23",
       "nome": "Desplanches",
       "squadra": "Frosinone",
       "ruolo": "P",
       "quot": 2
     },
     {
-      "id": "Provedel-23",
+      "id": "Provedel-24",
       "nome": "Provedel",
       "squadra": "Inter",
       "ruolo": "P",
       "quot": 2
     },
     {
-      "id": "Sportiello-24",
+      "id": "Sportiello-25",
       "nome": "Sportiello",
       "squadra": "Atalanta",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Happonen-25",
+      "id": "Happonen-26",
       "nome": "Happonen",
       "squadra": "Bologna",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Pessina Mas.-26",
+      "id": "Pessina Mas.-27",
       "nome": "Pessina Mas.",
       "squadra": "Bologna",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Sherri-27",
+      "id": "Sherri-28",
       "nome": "Sherri",
       "squadra": "Cagliari",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Tornqvist-28",
+      "id": "Tornqvist-29",
       "nome": "Tornqvist",
       "squadra": "Como",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Vigorito-29",
+      "id": "Vigorito-30",
       "nome": "Vigorito",
       "squadra": "Como",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Christensen O.-30",
+      "id": "Christensen O.-31",
       "nome": "Christensen O.",
       "squadra": "Fiorentina",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Lezzerini-31",
+      "id": "Lezzerini-32",
       "nome": "Lezzerini",
       "squadra": "Fiorentina",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Lolic-32",
+      "id": "Lolic-33",
       "nome": "Lolic",
       "squadra": "Frosinone",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Sommariva-33",
+      "id": "Sommariva-34",
       "nome": "Sommariva",
       "squadra": "Genoa",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Stolz-34",
+      "id": "Stolz-35",
       "nome": "Stolz",
       "squadra": "Genoa",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Di Gennaro-35",
+      "id": "Di Gennaro-36",
       "nome": "Di Gennaro",
       "squadra": "Inter",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Pinsoglio-36",
+      "id": "Pinsoglio-37",
       "nome": "Pinsoglio",
       "squadra": "Juventus",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Motta-37",
+      "id": "Motta-38",
       "nome": "Motta",
       "squadra": "Lazio",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Renzetti-38",
+      "id": "Renzetti-39",
       "nome": "Renzetti",
       "squadra": "Lazio",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Terracciano-39",
+      "id": "Terracciano-40",
       "nome": "Terracciano",
       "squadra": "Milan",
       "ruolo": "P",
       "quot": 1
     },
     {
-      "id": "Torriani-40",
+      "id": "Torriani-41",
       "nome": "Torriani",
       "squadra": "Milan",
-      "ruolo": "P",
-      "quot": 1
-    },
-    {
-      "id": "Pizzignacco-41",
-      "nome": "Pizzignacco",
-      "squadra": "Monza",
       "ruolo": "P",
       "quot": 1
     },
@@ -435,1191 +435,1191 @@
       "quot": 1
     },
     {
-      "id": "Dimarco-64",
+      "id": "Mrozek-64",
+      "nome": "Mrozek",
+      "squadra": "Udinese",
+      "ruolo": "P",
+      "quot": 1
+    },
+    {
+      "id": "Dimarco-65",
       "nome": "Dimarco",
       "squadra": "Inter",
       "ruolo": "D",
       "quot": 31
     },
     {
-      "id": "Molina N.-65",
+      "id": "Molina N.-66",
       "nome": "Molina N.",
       "squadra": "Roma",
       "ruolo": "D",
       "quot": 18
     },
     {
-      "id": "Wesley-66",
+      "id": "Wesley-67",
       "nome": "Wesley",
       "squadra": "Roma",
       "ruolo": "D",
       "quot": 17
     },
     {
-      "id": "Akanji-67",
+      "id": "Akanji-68",
       "nome": "Akanji",
       "squadra": "Inter",
       "ruolo": "D",
       "quot": 16
     },
     {
-      "id": "Bremer-68",
+      "id": "Bremer-69",
       "nome": "Bremer",
       "squadra": "Juventus",
       "ruolo": "D",
       "quot": 16
     },
     {
-      "id": "Mancini-69",
+      "id": "Mancini-70",
       "nome": "Mancini",
       "squadra": "Roma",
       "ruolo": "D",
       "quot": 15
     },
     {
-      "id": "Bastoni-70",
+      "id": "Bastoni-71",
       "nome": "Bastoni",
       "squadra": "Inter",
       "ruolo": "D",
       "quot": 14
     },
     {
-      "id": "Pavlovic-71",
+      "id": "Pavlovic-72",
       "nome": "Pavlovic",
       "squadra": "Milan",
       "ruolo": "D",
       "quot": 14
     },
     {
-      "id": "Rrahmani-72",
+      "id": "Rrahmani-73",
       "nome": "Rrahmani",
       "squadra": "Napoli",
       "ruolo": "D",
       "quot": 14
     },
     {
-      "id": "Kalulu-73",
+      "id": "Kalulu-74",
       "nome": "Kalulu",
       "squadra": "Juventus",
       "ruolo": "D",
       "quot": 13
     },
     {
-      "id": "N'Dicka-74",
+      "id": "N'Dicka-75",
       "nome": "N'Dicka",
       "squadra": "Roma",
       "ruolo": "D",
       "quot": 13
     },
     {
-      "id": "Solet-75",
+      "id": "Solet-76",
       "nome": "Solet",
       "squadra": "Udinese",
       "ruolo": "D",
       "quot": 13
     },
     {
-      "id": "Bisseck-76",
+      "id": "Bisseck-77",
       "nome": "Bisseck",
       "squadra": "Inter",
       "ruolo": "D",
       "quot": 12
     },
     {
-      "id": "Stones-77",
+      "id": "Stones-78",
       "nome": "Stones",
       "squadra": "Inter",
       "ruolo": "D",
       "quot": 12
     },
     {
-      "id": "Gila-78",
+      "id": "Gila-79",
       "nome": "Gila",
       "squadra": "Milan",
       "ruolo": "D",
       "quot": 12
     },
     {
-      "id": "Di Lorenzo-79",
+      "id": "Di Lorenzo-80",
       "nome": "Di Lorenzo",
       "squadra": "Napoli",
       "ruolo": "D",
       "quot": 12
     },
     {
-      "id": "Spence-80",
+      "id": "Spence-81",
       "nome": "Spence",
       "squadra": "Inter",
       "ruolo": "D",
       "quot": 12
     },
     {
-      "id": "Ostigard-81",
+      "id": "Ostigard-82",
       "nome": "Ostigard",
       "squadra": "Genoa",
       "ruolo": "D",
       "quot": 11
     },
     {
-      "id": "Scalvini-82",
+      "id": "Scalvini-83",
       "nome": "Scalvini",
       "squadra": "Atalanta",
       "ruolo": "D",
       "quot": 10
     },
     {
-      "id": "Ramon-83",
+      "id": "Ramon-84",
       "nome": "Ramon",
       "squadra": "Como",
       "ruolo": "D",
       "quot": 10
     },
     {
-      "id": "Dodò-84",
+      "id": "Dodò-85",
       "nome": "Dodò",
       "squadra": "Fiorentina",
       "ruolo": "D",
       "quot": 10
     },
     {
-      "id": "Hermoso-85",
+      "id": "Hermoso-86",
       "nome": "Hermoso",
       "squadra": "Roma",
       "ruolo": "D",
       "quot": 10
     },
     {
-      "id": "Vasquez-86",
+      "id": "Vasquez-87",
       "nome": "Vasquez",
       "squadra": "Genoa",
       "ruolo": "D",
       "quot": 9
     },
     {
-      "id": "Cambiaso-87",
+      "id": "Cambiaso-88",
       "nome": "Cambiaso",
       "squadra": "Juventus",
       "ruolo": "D",
       "quot": 9
     },
     {
-      "id": "Tiago Gabriel-88",
+      "id": "Tiago Gabriel-89",
       "nome": "Tiago Gabriel",
       "squadra": "Lecce",
       "ruolo": "D",
       "quot": 9
     },
     {
-      "id": "Chalobah T.-89",
+      "id": "Chalobah T.-90",
       "nome": "Chalobah T.",
       "squadra": "Como",
       "ruolo": "D",
       "quot": 9
     },
     {
-      "id": "Hien-90",
+      "id": "Hien-91",
       "nome": "Hien",
       "squadra": "Atalanta",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Zappacosta-91",
+      "id": "Zappacosta-92",
       "nome": "Zappacosta",
       "squadra": "Atalanta",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Lucumì-92",
+      "id": "Lucumì-93",
       "nome": "Lucumì",
       "squadra": "Juventus",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Miranda J.-93",
+      "id": "Miranda J.-94",
       "nome": "Miranda J.",
       "squadra": "Bologna",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Mina-94",
+      "id": "Mina-95",
       "nome": "Mina",
       "squadra": "Cagliari",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Jimenez A.-95",
+      "id": "Jimenez A.-96",
       "nome": "Jimenez A.",
       "squadra": "Fiorentina",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Norton-Cuffy-96",
+      "id": "Norton-Cuffy-97",
       "nome": "Norton-Cuffy",
       "squadra": "Genoa",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Celik-97",
+      "id": "Celik-98",
       "nome": "Celik",
       "squadra": "Juventus",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Doekhi-98",
+      "id": "Doekhi-99",
       "nome": "Doekhi",
       "squadra": "Lazio",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Bartesaghi-99",
+      "id": "Bartesaghi-100",
       "nome": "Bartesaghi",
       "squadra": "Milan",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Spinazzola-100",
+      "id": "Spinazzola-101",
       "nome": "Spinazzola",
       "squadra": "Napoli",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Delprato-101",
+      "id": "Delprato-102",
       "nome": "Delprato",
       "squadra": "Parma",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Valeri-102",
+      "id": "Valeri-103",
       "nome": "Valeri",
       "squadra": "Parma",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Koulierakis-103",
+      "id": "Koulierakis-104",
       "nome": "Koulierakis",
       "squadra": "Roma",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Vojvoda-104",
+      "id": "Vojvoda-105",
       "nome": "Vojvoda",
       "squadra": "Udinese",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Kamara H.-105",
+      "id": "Kamara H.-106",
       "nome": "Kamara H.",
       "squadra": "Udinese",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Couto-106",
+      "id": "Couto-107",
       "nome": "Couto",
       "squadra": "Como",
       "ruolo": "D",
       "quot": 8
     },
     {
-      "id": "Obert-107",
+      "id": "Theate-108",
+      "nome": "Theate",
+      "squadra": "Bologna",
+      "ruolo": "D",
+      "quot": 8
+    },
+    {
+      "id": "Obert-109",
       "nome": "Obert",
       "squadra": "Cagliari",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Kaiki-108",
+      "id": "Kaiki-110",
       "nome": "Kaiki",
       "squadra": "Como",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Dragusin-109",
+      "id": "Dragusin-111",
       "nome": "Dragusin",
       "squadra": "Fiorentina",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Carlos Augusto-110",
+      "id": "Carlos Augusto-112",
       "nome": "Carlos Augusto",
       "squadra": "Inter",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Romagnoli-111",
+      "id": "Romagnoli-113",
       "nome": "Romagnoli",
       "squadra": "Lazio",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Gabbia-112",
+      "id": "Gabbia-114",
       "nome": "Gabbia",
       "squadra": "Milan",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Tomori-113",
+      "id": "Tomori-115",
       "nome": "Tomori",
       "squadra": "Milan",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Buongiorno-114",
+      "id": "Buongiorno-116",
       "nome": "Buongiorno",
       "squadra": "Napoli",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Idzes-115",
+      "id": "Idzes-117",
       "nome": "Idzes",
       "squadra": "Sassuolo",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Coco-116",
+      "id": "Coco-118",
       "nome": "Coco",
       "squadra": "Torino",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Ismajli-117",
+      "id": "Ismajli-119",
       "nome": "Ismajli",
       "squadra": "Torino",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Kristensen T.-118",
+      "id": "Kristensen T.-120",
       "nome": "Kristensen T.",
       "squadra": "Atalanta",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Badiashile-119",
+      "id": "Badiashile-121",
       "nome": "Badiashile",
       "squadra": "Napoli",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Sutalo J.-120",
+      "id": "Sutalo J.-122",
       "nome": "Sutalo J.",
       "squadra": "Lazio",
       "ruolo": "D",
       "quot": 7
     },
     {
-      "id": "Ahanor-121",
+      "id": "Ahanor-123",
       "nome": "Ahanor",
       "squadra": "Atalanta",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Bellanova-122",
+      "id": "Bellanova-124",
       "nome": "Bellanova",
       "squadra": "Atalanta",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Bernasconi-123",
+      "id": "Bernasconi-125",
       "nome": "Bernasconi",
       "squadra": "Atalanta",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Heggem-124",
+      "id": "Heggem-126",
       "nome": "Heggem",
       "squadra": "Bologna",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Zortea-125",
+      "id": "Zortea-127",
       "nome": "Zortea",
       "squadra": "Bologna",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Valle-126",
+      "id": "Valle-128",
       "nome": "Valle",
       "squadra": "Como",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Valdepenas-127",
+      "id": "Valdepenas-129",
       "nome": "Valdepenas",
       "squadra": "Fiorentina",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Viery-128",
+      "id": "Viery-130",
       "nome": "Viery",
       "squadra": "Fiorentina",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Monterisi-129",
+      "id": "Monterisi-131",
       "nome": "Monterisi",
       "squadra": "Frosinone",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Marcandalli-130",
+      "id": "Marcandalli-132",
       "nome": "Marcandalli",
       "squadra": "Genoa",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Pavard-131",
+      "id": "Pavard-133",
       "nome": "Pavard",
       "squadra": "Inter",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Tavares N.-132",
+      "id": "Tavares N.-134",
       "nome": "Tavares N.",
       "squadra": "Lazio",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Marusic-133",
+      "id": "Marusic-135",
       "nome": "Marusic",
       "squadra": "Lazio",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Gaspar K.-134",
+      "id": "Gaspar K.-136",
       "nome": "Gaspar K.",
       "squadra": "Lecce",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Veiga D.-135",
+      "id": "Veiga D.-137",
       "nome": "Veiga D.",
       "squadra": "Lecce",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Gallo-136",
+      "id": "Gallo-138",
       "nome": "Gallo",
       "squadra": "Lecce",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Mangas-137",
+      "id": "Mangas-139",
       "nome": "Mangas",
       "squadra": "Monza",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Beukema-138",
+      "id": "Beukema-140",
       "nome": "Beukema",
       "squadra": "Napoli",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Comuzzo-139",
+      "id": "Comuzzo-141",
       "nome": "Comuzzo",
       "squadra": "Torino",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Bella-Kotchap-140",
+      "id": "Bella-Kotchap-142",
       "nome": "Bella-Kotchap",
       "squadra": "Venezia",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Obrador-141",
+      "id": "Obrador-143",
       "nome": "Obrador",
       "squadra": "Sassuolo",
       "ruolo": "D",
       "quot": 6
     },
     {
-      "id": "Kolasinac-142",
+      "id": "Balerdi-144",
+      "nome": "Balerdi",
+      "squadra": "Roma",
+      "ruolo": "D",
+      "quot": 6
+    },
+    {
+      "id": "Kolasinac-145",
       "nome": "Kolasinac",
       "squadra": "Atalanta",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Vitik-143",
+      "id": "Vitik-146",
       "nome": "Vitik",
       "squadra": "Bologna",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Holm-144",
+      "id": "Holm-147",
       "nome": "Holm",
       "squadra": "Bologna",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Kofler-145",
+      "id": "Kofler-148",
       "nome": "Kofler",
       "squadra": "Cagliari",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Zè Pedro-146",
+      "id": "Zè Pedro-149",
       "nome": "Zè Pedro",
       "squadra": "Cagliari",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Kempf-147",
+      "id": "Kempf-150",
       "nome": "Kempf",
       "squadra": "Como",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Parisi-148",
+      "id": "Parisi-151",
       "nome": "Parisi",
       "squadra": "Fiorentina",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Bracaglia-149",
+      "id": "Bracaglia-152",
       "nome": "Bracaglia",
       "squadra": "Frosinone",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Oyono A.-150",
+      "id": "Oyono A.-153",
       "nome": "Oyono A.",
       "squadra": "Frosinone",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Martin-151",
+      "id": "Martin-154",
       "nome": "Martin",
       "squadra": "Genoa",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Kelly L.-152",
+      "id": "Kelly L.-155",
       "nome": "Kelly L.",
       "squadra": "Juventus",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Pedraza-153",
+      "id": "Pedraza-156",
       "nome": "Pedraza",
       "squadra": "Lazio",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Siebert-154",
+      "id": "Siebert-157",
       "nome": "Siebert",
       "squadra": "Lecce",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Olivera-155",
+      "id": "Olivera-158",
       "nome": "Olivera",
       "squadra": "Napoli",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Rensch-156",
+      "id": "Rensch-159",
       "nome": "Rensch",
       "squadra": "Roma",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Pedersen-157",
-      "nome": "Pedersen",
-      "squadra": "Torino",
-      "ruolo": "D",
-      "quot": 5
-    },
-    {
-      "id": "Moreno M.-158",
+      "id": "Moreno M.-160",
       "nome": "Moreno M.",
       "squadra": "Venezia",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Correia T.-159",
+      "id": "Correia T.-161",
       "nome": "Correia T.",
       "squadra": "Venezia",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Haps-160",
+      "id": "Haps-162",
       "nome": "Haps",
       "squadra": "Venezia",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Fortini-161",
+      "id": "Fortini-163",
       "nome": "Fortini",
       "squadra": "Torino",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Leysen F.-162",
+      "id": "Leysen F.-164",
       "nome": "Leysen F.",
       "squadra": "Sassuolo",
       "ruolo": "D",
       "quot": 5
     },
     {
-      "id": "Rodriguez Ju.-163",
+      "id": "Rodriguez Ju.-165",
       "nome": "Rodriguez Ju.",
       "squadra": "Cagliari",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Zappa-164",
-      "nome": "Zappa",
-      "squadra": "Cagliari",
-      "ruolo": "D",
-      "quot": 4
-    },
-    {
-      "id": "Smolcic I.-165",
+      "id": "Smolcic I.-166",
       "nome": "Smolcic I.",
       "squadra": "Como",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Pongracic-166",
+      "id": "Pongracic-167",
       "nome": "Pongracic",
       "squadra": "Fiorentina",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Calvani-167",
+      "id": "Calvani-168",
       "nome": "Calvani",
       "squadra": "Frosinone",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Mitaj-168",
+      "id": "Mitaj-169",
       "nome": "Mitaj",
       "squadra": "Genoa",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Gatti-169",
+      "id": "Gatti-170",
       "nome": "Gatti",
       "squadra": "Juventus",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "De Winter-170",
+      "id": "De Winter-171",
       "nome": "De Winter",
       "squadra": "Milan",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Estupinan-171",
+      "id": "Estupinan-172",
       "nome": "Estupinan",
       "squadra": "Milan",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Delli Carri-172",
+      "id": "Delli Carri-173",
       "nome": "Delli Carri",
       "squadra": "Monza",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Lucchesi-173",
+      "id": "Lucchesi-174",
       "nome": "Lucchesi",
       "squadra": "Monza",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Birindelli-174",
+      "id": "Birindelli-175",
       "nome": "Birindelli",
       "squadra": "Monza",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Troilo-175",
+      "id": "Troilo-176",
       "nome": "Troilo",
       "squadra": "Parma",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Valenti-176",
+      "id": "Valenti-177",
       "nome": "Valenti",
       "squadra": "Parma",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Ghilardi-177",
+      "id": "Ghilardi-178",
       "nome": "Ghilardi",
       "squadra": "Roma",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Walukiewicz-178",
+      "id": "Walukiewicz-179",
       "nome": "Walukiewicz",
       "squadra": "Sassuolo",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Doig-179",
+      "id": "Doig-180",
       "nome": "Doig",
       "squadra": "Sassuolo",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Comert-180",
+      "id": "Comert-181",
       "nome": "Comert",
       "squadra": "Torino",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Kabasele-181",
+      "id": "Kabasele-182",
       "nome": "Kabasele",
       "squadra": "Udinese",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Bertola-182",
+      "id": "Bertola-183",
       "nome": "Bertola",
       "squadra": "Udinese",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Zanoli-183",
+      "id": "Zanoli-184",
       "nome": "Zanoli",
       "squadra": "Udinese",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Arizala-184",
+      "id": "Arizala-185",
       "nome": "Arizala",
       "squadra": "Udinese",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Halhal-185",
+      "id": "Halhal-186",
       "nome": "Halhal",
       "squadra": "Venezia",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Terzic-186",
+      "id": "Terzic-187",
       "nome": "Terzic",
       "squadra": "Frosinone",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Favasuli-187",
+      "id": "Favasuli-188",
       "nome": "Favasuli",
       "squadra": "Napoli",
       "ruolo": "D",
       "quot": 4
     },
     {
-      "id": "Kossounou-188",
+      "id": "Kossounou-189",
       "nome": "Kossounou",
       "squadra": "Atalanta",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Casale-189",
+      "id": "Casale-190",
       "nome": "Casale",
       "squadra": "Bologna",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Helland-190",
+      "id": "Helland-191",
       "nome": "Helland",
       "squadra": "Bologna",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Idrissi R.-191",
+      "id": "Idrissi R.-192",
       "nome": "Idrissi R.",
       "squadra": "Cagliari",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Ranieri L.-192",
+      "id": "Ranieri L.-193",
       "nome": "Ranieri L.",
       "squadra": "Fiorentina",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Joao Mario-193",
+      "id": "Joao Mario-194",
       "nome": "Joao Mario",
       "squadra": "Fiorentina",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Akpoguma-194",
+      "id": "Akpoguma-195",
       "nome": "Akpoguma",
       "squadra": "Frosinone",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Cittadini-195",
+      "id": "Cittadini-196",
       "nome": "Cittadini",
       "squadra": "Frosinone",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Provstgaard-196",
+      "id": "Provstgaard-197",
       "nome": "Provstgaard",
       "squadra": "Lazio",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Floriani Mussolini-197",
+      "id": "Floriani Mussolini-198",
       "nome": "Floriani Mussolini",
       "squadra": "Lazio",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Kouadio-198",
+      "id": "Kouadio-199",
       "nome": "Kouadio",
       "squadra": "Monza",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Carboni A.-199",
+      "id": "Carboni A.-200",
       "nome": "Carboni A.",
       "squadra": "Monza",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Britschgi-200",
+      "id": "Britschgi-201",
       "nome": "Britschgi",
       "squadra": "Parma",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Candè-201",
+      "id": "Candè-202",
       "nome": "Candè",
       "squadra": "Sassuolo",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Palma-202",
+      "id": "Palma-203",
       "nome": "Palma",
       "squadra": "Udinese",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Ebosse-203",
+      "id": "Ebosse-204",
       "nome": "Ebosse",
       "squadra": "Udinese",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Schingtienne-204",
+      "id": "Schingtienne-205",
       "nome": "Schingtienne",
       "squadra": "Venezia",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Sverko-205",
+      "id": "Sverko-206",
       "nome": "Sverko",
       "squadra": "Venezia",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Hainaut-206",
+      "id": "Hainaut-207",
       "nome": "Hainaut",
       "squadra": "Venezia",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Odenthal-207",
+      "id": "Odenthal-208",
       "nome": "Odenthal",
       "squadra": "Sassuolo",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Tchato-208",
+      "id": "Tchato-209",
       "nome": "Tchato",
       "squadra": "Frosinone",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Kambwala-209",
+      "id": "Kambwala-210",
       "nome": "Kambwala",
       "squadra": "Como",
       "ruolo": "D",
       "quot": 3
     },
     {
-      "id": "Alhassane-210",
+      "id": "Alhassane-211",
       "nome": "Alhassane",
       "squadra": "Bologna",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Van Der Brempt-211",
+      "id": "Van Der Brempt-212",
       "nome": "Van Der Brempt",
-      "squadra": "Como",
+      "squadra": "Sassuolo",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Otoa-212",
+      "id": "Otoa-213",
       "nome": "Otoa",
       "squadra": "Genoa",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Puczka-213",
+      "id": "Puczka-214",
       "nome": "Puczka",
       "squadra": "Genoa",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Sabelli-214",
+      "id": "Sabelli-215",
       "nome": "Sabelli",
       "squadra": "Genoa",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Lazzari-215",
+      "id": "Lazzari-216",
       "nome": "Lazzari",
       "squadra": "Lazio",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Pellegrini Lu.-216",
+      "id": "Pellegrini Lu.-217",
       "nome": "Pellegrini Lu.",
       "squadra": "Lazio",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Jean-217",
+      "id": "Jean-218",
       "nome": "Jean",
       "squadra": "Lecce",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Ndaba-218",
+      "id": "Ndaba-219",
       "nome": "Ndaba",
       "squadra": "Lecce",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Diawara S.-219",
+      "id": "Diawara S.-220",
       "nome": "Diawara S.",
       "squadra": "Milan",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Bakoune-220",
+      "id": "Bakoune-221",
       "nome": "Bakoune",
       "squadra": "Monza",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Marin R.-221",
+      "id": "Marin R.-222",
       "nome": "Marin R.",
       "squadra": "Napoli",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Ndiaye-222",
+      "id": "Ndiaye-223",
       "nome": "Ndiaye",
       "squadra": "Parma",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Biraghi-223",
+      "id": "Biraghi-224",
       "nome": "Biraghi",
       "squadra": "Torino",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Abankwah-224",
+      "id": "Abankwah-225",
       "nome": "Abankwah",
       "squadra": "Udinese",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Franjic-225",
+      "id": "Franjic-226",
       "nome": "Franjic",
       "squadra": "Venezia",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Sagrado-226",
+      "id": "Sagrado-227",
       "nome": "Sagrado",
       "squadra": "Venezia",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Aurelio-227",
+      "id": "Aurelio-228",
       "nome": "Aurelio",
       "squadra": "Cagliari",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Cinquegrano-228",
+      "id": "Cinquegrano-229",
       "nome": "Cinquegrano",
       "squadra": "Sassuolo",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "Terracciano F.-229",
+      "id": "Terracciano F.-230",
       "nome": "Terracciano F.",
       "squadra": "Milan",
       "ruolo": "D",
       "quot": 2
     },
     {
-      "id": "De Silvestri-230",
+      "id": "De Silvestri-231",
       "nome": "De Silvestri",
       "squadra": "Bologna",
       "ruolo": "D",
       "quot": 1
     },
     {
-      "id": "Goldaniga-231",
+      "id": "Goldaniga-232",
       "nome": "Goldaniga",
       "squadra": "Como",
       "ruolo": "D",
       "quot": 1
     },
     {
-      "id": "Amey-232",
+      "id": "Amey-233",
       "nome": "Amey",
-      "squadra": "Frosinone",
-      "ruolo": "D",
-      "quot": 1
-    },
-    {
-      "id": "Corrado-233",
-      "nome": "Corrado",
       "squadra": "Frosinone",
       "ruolo": "D",
       "quot": 1
@@ -1676,7 +1676,7 @@
     {
       "id": "Ziolkowski-241",
       "nome": "Ziolkowski",
-      "squadra": "Roma",
+      "squadra": "Monza",
       "ruolo": "D",
       "quot": 1
     },
@@ -1716,1911 +1716,1960 @@
       "quot": 1
     },
     {
-      "id": "Lulli-247",
+      "id": "Macchioni-247",
+      "nome": "Macchioni",
+      "squadra": "Sassuolo",
+      "ruolo": "D",
+      "quot": 1
+    },
+    {
+      "id": "Lulli-248",
       "nome": "Lulli",
       "squadra": "Roma",
       "ruolo": "D",
       "quot": 1
     },
     {
-      "id": "Maye-248",
+      "id": "Maye-249",
       "nome": "Maye",
       "squadra": "Monza",
       "ruolo": "D",
       "quot": 1
     },
     {
-      "id": "Paz N.-249",
+      "id": "Drobnic-250",
+      "nome": "Drobnic",
+      "squadra": "Parma",
+      "ruolo": "D",
+      "quot": 1
+    },
+    {
+      "id": "Dembelè A.-251",
+      "nome": "Dembelè A.",
+      "squadra": "Lecce",
+      "ruolo": "D",
+      "quot": 1
+    },
+    {
+      "id": "Paz N.-252",
       "nome": "Paz N.",
       "squadra": "Como",
       "ruolo": "C",
       "quot": 29
     },
     {
-      "id": "Calhanoglu-250",
+      "id": "Calhanoglu-253",
       "nome": "Calhanoglu",
       "squadra": "Inter",
       "ruolo": "C",
       "quot": 28
     },
     {
-      "id": "McTominay-251",
+      "id": "McTominay-254",
       "nome": "McTominay",
       "squadra": "Napoli",
       "ruolo": "C",
       "quot": 28
     },
     {
-      "id": "Orsolini-252",
+      "id": "Orsolini-255",
       "nome": "Orsolini",
       "squadra": "Bologna",
       "ruolo": "C",
       "quot": 25
     },
     {
-      "id": "Pulisic-253",
+      "id": "Pulisic-256",
       "nome": "Pulisic",
       "squadra": "Milan",
       "ruolo": "C",
       "quot": 24
     },
     {
-      "id": "Rabiot-254",
+      "id": "Rabiot-257",
       "nome": "Rabiot",
       "squadra": "Milan",
       "ruolo": "C",
       "quot": 23
     },
     {
-      "id": "Baturina-255",
+      "id": "Baturina-258",
       "nome": "Baturina",
       "squadra": "Como",
       "ruolo": "C",
       "quot": 19
     },
     {
-      "id": "Mora-256",
+      "id": "Mora-259",
       "nome": "Mora",
       "squadra": "Roma",
       "ruolo": "C",
       "quot": 19
     },
     {
-      "id": "Da Cunha-257",
+      "id": "Da Cunha-260",
       "nome": "Da Cunha",
       "squadra": "Como",
       "ruolo": "C",
       "quot": 18
     },
     {
-      "id": "Zaniolo-258",
+      "id": "Zaniolo-261",
       "nome": "Zaniolo",
       "squadra": "Udinese",
       "ruolo": "C",
       "quot": 18
     },
     {
-      "id": "Barella-259",
+      "id": "Barella-262",
       "nome": "Barella",
       "squadra": "Inter",
       "ruolo": "C",
       "quot": 17
     },
     {
-      "id": "McKennie-260",
+      "id": "McKennie-263",
       "nome": "McKennie",
       "squadra": "Juventus",
       "ruolo": "C",
       "quot": 17
     },
     {
-      "id": "Atta-261",
+      "id": "Atta-264",
       "nome": "Atta",
       "squadra": "Fiorentina",
       "ruolo": "C",
       "quot": 16
     },
     {
-      "id": "Zaccagni-262",
+      "id": "Zaccagni-265",
       "nome": "Zaccagni",
       "squadra": "Lazio",
       "ruolo": "C",
       "quot": 16
     },
     {
-      "id": "De Bruyne-263",
+      "id": "De Bruyne-266",
       "nome": "De Bruyne",
       "squadra": "Napoli",
       "ruolo": "C",
       "quot": 16
     },
     {
-      "id": "Gudmundsson A.-264",
+      "id": "Gudmundsson A.-267",
       "nome": "Gudmundsson A.",
       "squadra": "Fiorentina",
       "ruolo": "C",
       "quot": 13
     },
     {
-      "id": "Taylor K.-265",
+      "id": "Taylor K.-268",
       "nome": "Taylor K.",
       "squadra": "Lazio",
       "ruolo": "C",
       "quot": 13
     },
     {
-      "id": "Vlasic-266",
+      "id": "Vlasic-269",
       "nome": "Vlasic",
       "squadra": "Torino",
       "ruolo": "C",
       "quot": 13
     },
     {
-      "id": "Ederson D.S.-267",
+      "id": "Ederson D.S.-270",
       "nome": "Ederson D.S.",
       "squadra": "Atalanta",
       "ruolo": "C",
       "quot": 12
     },
     {
-      "id": "Samardzic-268",
+      "id": "Samardzic-271",
       "nome": "Samardzic",
       "squadra": "Atalanta",
       "ruolo": "C",
       "quot": 12
     },
     {
-      "id": "Rodriguez Je.-269",
+      "id": "Rodriguez Je.-272",
       "nome": "Rodriguez Je.",
       "squadra": "Como",
       "ruolo": "C",
       "quot": 12
     },
     {
-      "id": "Alajbegovic-270",
+      "id": "Alajbegovic-273",
       "nome": "Alajbegovic",
       "squadra": "Juventus",
       "ruolo": "C",
       "quot": 12
     },
     {
-      "id": "Conceicao-271",
+      "id": "Conceicao-274",
       "nome": "Conceicao",
       "squadra": "Juventus",
       "ruolo": "C",
       "quot": 12
     },
     {
-      "id": "Modric-272",
+      "id": "Modric-275",
       "nome": "Modric",
       "squadra": "Milan",
       "ruolo": "C",
       "quot": 12
     },
     {
-      "id": "Mastantuono-273",
+      "id": "Mastantuono-276",
       "nome": "Mastantuono",
       "squadra": "Fiorentina",
       "ruolo": "C",
       "quot": 12
     },
     {
-      "id": "Moreira-274",
+      "id": "Moreira-277",
       "nome": "Moreira",
       "squadra": "Milan",
       "ruolo": "C",
       "quot": 12
     },
     {
-      "id": "Jones C.-275",
+      "id": "Jones C.-278",
       "nome": "Jones C.",
       "squadra": "Inter",
       "ruolo": "C",
       "quot": 12
     },
     {
-      "id": "Rowe-276",
+      "id": "Kessiè-279",
+      "nome": "Kessiè",
+      "squadra": "Atalanta",
+      "ruolo": "C",
+      "quot": 12
+    },
+    {
+      "id": "Rowe-280",
       "nome": "Rowe",
       "squadra": "Bologna",
       "ruolo": "C",
       "quot": 11
     },
     {
-      "id": "Baldanzi-277",
+      "id": "Baldanzi-281",
       "nome": "Baldanzi",
       "squadra": "Genoa",
       "ruolo": "C",
       "quot": 11
     },
     {
-      "id": "Zielinski-278",
+      "id": "Zielinski-282",
       "nome": "Zielinski",
       "squadra": "Inter",
       "ruolo": "C",
       "quot": 11
     },
     {
-      "id": "Zambo Anguissa-279",
+      "id": "Zambo Anguissa-283",
       "nome": "Zambo Anguissa",
       "squadra": "Napoli",
       "ruolo": "C",
       "quot": 11
     },
     {
-      "id": "Ekkelenkamp-280",
+      "id": "Ekkelenkamp-284",
       "nome": "Ekkelenkamp",
       "squadra": "Udinese",
       "ruolo": "C",
       "quot": 11
     },
     {
-      "id": "Perrone-281",
+      "id": "Gonzalez N.-285",
+      "nome": "Gonzalez N.",
+      "squadra": "Juventus",
+      "ruolo": "C",
+      "quot": 11
+    },
+    {
+      "id": "Perrone-286",
       "nome": "Perrone",
       "squadra": "Como",
       "ruolo": "C",
       "quot": 10
     },
     {
-      "id": "Thuram K.-282",
+      "id": "Thuram K.-287",
       "nome": "Thuram K.",
       "squadra": "Juventus",
       "ruolo": "C",
       "quot": 10
     },
     {
-      "id": "Saelemaekers-283",
+      "id": "Saelemaekers-288",
       "nome": "Saelemaekers",
       "squadra": "Milan",
       "ruolo": "C",
       "quot": 10
     },
     {
-      "id": "Politano-284",
+      "id": "Politano-289",
       "nome": "Politano",
       "squadra": "Napoli",
       "ruolo": "C",
       "quot": 10
     },
     {
-      "id": "Vergara-285",
+      "id": "Vergara-290",
       "nome": "Vergara",
       "squadra": "Napoli",
       "ruolo": "C",
       "quot": 10
     },
     {
-      "id": "Konè M.-286",
+      "id": "Konè M.-291",
       "nome": "Konè M.",
       "squadra": "Roma",
       "ruolo": "C",
       "quot": 10
     },
     {
-      "id": "Thorstvedt-287",
+      "id": "Thorstvedt-292",
       "nome": "Thorstvedt",
       "squadra": "Sassuolo",
       "ruolo": "C",
       "quot": 10
     },
     {
-      "id": "Casadei-288",
+      "id": "Casadei-293",
       "nome": "Casadei",
       "squadra": "Torino",
       "ruolo": "C",
       "quot": 10
     },
     {
-      "id": "Pellegrini Lo.-289",
+      "id": "Pellegrini Lo.-294",
       "nome": "Pellegrini Lo.",
       "squadra": "Roma",
       "ruolo": "C",
       "quot": 10
     },
     {
-      "id": "Pasalic-290",
+      "id": "Pasalic-295",
       "nome": "Pasalic",
       "squadra": "Atalanta",
       "ruolo": "C",
       "quot": 9
     },
     {
-      "id": "Bernardeschi-291",
+      "id": "Bernardeschi-296",
       "nome": "Bernardeschi",
       "squadra": "Bologna",
       "ruolo": "C",
       "quot": 9
     },
     {
-      "id": "Mandragora-292",
+      "id": "Mandragora-297",
       "nome": "Mandragora",
       "squadra": "Fiorentina",
       "ruolo": "C",
       "quot": 9
     },
     {
-      "id": "Diouf-293",
+      "id": "Diouf-298",
       "nome": "Diouf",
       "squadra": "Inter",
       "ruolo": "C",
       "quot": 9
     },
     {
-      "id": "Frattesi-294",
+      "id": "Frattesi-299",
       "nome": "Frattesi",
       "squadra": "Lazio",
       "ruolo": "C",
       "quot": 9
     },
     {
-      "id": "Cancellieri-295",
+      "id": "Cancellieri-300",
       "nome": "Cancellieri",
       "squadra": "Lazio",
       "ruolo": "C",
       "quot": 9
     },
     {
-      "id": "Isaksen-296",
+      "id": "Isaksen-301",
       "nome": "Isaksen",
       "squadra": "Lazio",
       "ruolo": "C",
       "quot": 9
     },
     {
-      "id": "Konè I.-297",
+      "id": "Konè I.-302",
       "nome": "Konè I.",
       "squadra": "Sassuolo",
       "ruolo": "C",
       "quot": 9
     },
     {
-      "id": "Gaetano-298",
+      "id": "Gaetano-303",
       "nome": "Gaetano",
       "squadra": "Atalanta",
       "ruolo": "C",
       "quot": 8
     },
     {
-      "id": "Odgaard-299",
+      "id": "Odgaard-304",
       "nome": "Odgaard",
       "squadra": "Bologna",
       "ruolo": "C",
       "quot": 8
     },
     {
-      "id": "Cambiaghi-300",
+      "id": "Cambiaghi-305",
       "nome": "Cambiaghi",
       "squadra": "Bologna",
       "ruolo": "C",
       "quot": 8
     },
     {
-      "id": "Fagioli-301",
+      "id": "Fagioli-306",
       "nome": "Fagioli",
       "squadra": "Fiorentina",
       "ruolo": "C",
       "quot": 8
     },
     {
-      "id": "Ndour-302",
+      "id": "Ndour-307",
       "nome": "Ndour",
       "squadra": "Fiorentina",
       "ruolo": "C",
       "quot": 8
     },
     {
-      "id": "Sucic P.-303",
+      "id": "Sucic P.-308",
       "nome": "Sucic P.",
       "squadra": "Inter",
       "ruolo": "C",
       "quot": 8
     },
     {
-      "id": "Locatelli-304",
+      "id": "Locatelli-309",
       "nome": "Locatelli",
       "squadra": "Juventus",
       "ruolo": "C",
       "quot": 8
     },
     {
-      "id": "Colpani-305",
+      "id": "Colpani-310",
       "nome": "Colpani",
       "squadra": "Monza",
       "ruolo": "C",
       "quot": 8
     },
     {
-      "id": "Lobotka-306",
+      "id": "Lobotka-311",
       "nome": "Lobotka",
       "squadra": "Napoli",
       "ruolo": "C",
       "quot": 8
     },
     {
-      "id": "Cristante-307",
+      "id": "Cristante-312",
       "nome": "Cristante",
       "squadra": "Roma",
       "ruolo": "C",
       "quot": 8
     },
     {
-      "id": "Volpato-308",
+      "id": "Volpato-313",
       "nome": "Volpato",
       "squadra": "Sassuolo",
       "ruolo": "C",
       "quot": 8
     },
     {
-      "id": "Schmid-309",
+      "id": "Schmid-314",
       "nome": "Schmid",
       "squadra": "Frosinone",
       "ruolo": "C",
       "quot": 8
     },
     {
-      "id": "Ferguson-310",
+      "id": "Ferguson-315",
       "nome": "Ferguson",
       "squadra": "Bologna",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Adopo-311",
+      "id": "Adopo-316",
       "nome": "Adopo",
       "squadra": "Cagliari",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Romano-312",
+      "id": "Romano-317",
       "nome": "Romano",
       "squadra": "Cagliari",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Fazzini-313",
+      "id": "Fazzini-318",
       "nome": "Fazzini",
       "squadra": "Cagliari",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Calò-314",
+      "id": "Calò-319",
       "nome": "Calò",
       "squadra": "Frosinone",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Frendrup-315",
+      "id": "Frendrup-320",
       "nome": "Frendrup",
       "squadra": "Genoa",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Rovella-316",
+      "id": "Rovella-321",
       "nome": "Rovella",
       "squadra": "Lazio",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Coulibaly L.-317",
+      "id": "Coulibaly L.-322",
       "nome": "Coulibaly L.",
       "squadra": "Lecce",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Chukwueze-318",
+      "id": "Chukwueze-323",
       "nome": "Chukwueze",
       "squadra": "Milan",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Pessina-319",
+      "id": "Pessina-324",
       "nome": "Pessina",
       "squadra": "Monza",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Bernabè-320",
+      "id": "Bernabè-325",
       "nome": "Bernabè",
       "squadra": "Parma",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Pisilli-321",
+      "id": "Pisilli-326",
       "nome": "Pisilli",
       "squadra": "Roma",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Oristanio-322",
+      "id": "Oristanio-327",
       "nome": "Oristanio",
       "squadra": "Torino",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Karlstrom-323",
+      "id": "Karlstrom-328",
       "nome": "Karlstrom",
       "squadra": "Udinese",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Unai Gomez-324",
+      "id": "Unai Gomez-329",
       "nome": "Unai Gomez",
       "squadra": "Udinese",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Sow-325",
+      "id": "Sow-330",
       "nome": "Sow",
       "squadra": "Genoa",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Elmas-326",
+      "id": "Elmas-331",
       "nome": "Elmas",
       "squadra": "Atalanta",
       "ruolo": "C",
       "quot": 7
     },
     {
-      "id": "Zalewski-327",
+      "id": "Zalewski-332",
       "nome": "Zalewski",
       "squadra": "Atalanta",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Pobega-328",
+      "id": "Pobega-333",
       "nome": "Pobega",
       "squadra": "Bologna",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Winks-329",
+      "id": "Winks-334",
       "nome": "Winks",
       "squadra": "Cagliari",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Milla-330",
+      "id": "Milla-335",
       "nome": "Milla",
       "squadra": "Como",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Caqueret-331",
+      "id": "Caqueret-336",
       "nome": "Caqueret",
       "squadra": "Como",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Liberali-332",
+      "id": "Liberali-337",
       "nome": "Liberali",
       "squadra": "Como",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Oulai-333",
+      "id": "Oulai-338",
       "nome": "Oulai",
       "squadra": "Fiorentina",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Ellertsson-334",
+      "id": "Ellertsson-339",
       "nome": "Ellertsson",
       "squadra": "Genoa",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Zhegrova-335",
+      "id": "Zhegrova-340",
       "nome": "Zhegrova",
       "squadra": "Juventus",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Pierotti-336",
+      "id": "Pierotti-341",
       "nome": "Pierotti",
       "squadra": "Lecce",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Akinsanmiro-337",
+      "id": "Akinsanmiro-342",
       "nome": "Akinsanmiro",
       "squadra": "Monza",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Nicolussi Caviglia-338",
+      "id": "Nicolussi Caviglia-343",
       "nome": "Nicolussi Caviglia",
       "squadra": "Parma",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Matic-339",
+      "id": "Matic-344",
       "nome": "Matic",
       "squadra": "Sassuolo",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Gineitis-340",
+      "id": "Gineitis-345",
       "nome": "Gineitis",
       "squadra": "Torino",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Basic-341",
+      "id": "Basic-346",
       "nome": "Basic",
       "squadra": "Venezia",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Tourè I.-342",
+      "id": "Tourè I.-347",
       "nome": "Tourè I.",
       "squadra": "Monza",
       "ruolo": "C",
       "quot": 6
     },
     {
-      "id": "Amondarain-343",
+      "id": "Amondarain-348",
       "nome": "Amondarain",
       "squadra": "Bologna",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Felici-344",
+      "id": "Felici-349",
       "nome": "Felici",
       "squadra": "Cagliari",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Addai-345",
+      "id": "Addai-350",
       "nome": "Addai",
       "squadra": "Como",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Zerbin-346",
+      "id": "Zerbin-351",
       "nome": "Zerbin",
       "squadra": "Frosinone",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Amorim-347",
+      "id": "Amorim-352",
       "nome": "Amorim",
       "squadra": "Genoa",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Meichtry-348",
+      "id": "Meichtry-353",
       "nome": "Meichtry",
       "squadra": "Genoa",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Traorè Hj.-349",
+      "id": "Traorè Hj.-354",
       "nome": "Traorè Hj.",
       "squadra": "Genoa",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Mkhitaryan-350",
+      "id": "Mkhitaryan-355",
       "nome": "Mkhitaryan",
       "squadra": "Inter",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Koopmeiners-351",
+      "id": "Koopmeiners-356",
       "nome": "Koopmeiners",
       "squadra": "Juventus",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Dele-Bashiru-352",
+      "id": "Dele-Bashiru-357",
       "nome": "Dele-Bashiru",
       "squadra": "Lazio",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Berisha M.-353",
+      "id": "Berisha M.-358",
       "nome": "Berisha M.",
       "squadra": "Lecce",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Gandelman-354",
+      "id": "Gandelman-359",
       "nome": "Gandelman",
       "squadra": "Lecce",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Fofana Y.-355",
+      "id": "Fofana Y.-360",
       "nome": "Fofana Y.",
       "squadra": "Milan",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Jashari-356",
+      "id": "Jashari-361",
       "nome": "Jashari",
       "squadra": "Milan",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Keita M.-357",
+      "id": "Keita M.-362",
       "nome": "Keita M.",
       "squadra": "Parma",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Adzic-358",
+      "id": "Adzic-363",
       "nome": "Adzic",
       "squadra": "Sassuolo",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Bakola-359",
+      "id": "Bakola-364",
       "nome": "Bakola",
       "squadra": "Sassuolo",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Cacciamani-360",
+      "id": "Cacciamani-365",
       "nome": "Cacciamani",
       "squadra": "Torino",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Njie-361",
+      "id": "Njie-366",
       "nome": "Njie",
-      "squadra": "Torino",
+      "squadra": "Fiorentina",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Piotrowski-362",
+      "id": "Piotrowski-367",
       "nome": "Piotrowski",
       "squadra": "Udinese",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Busio-363",
+      "id": "Busio-368",
       "nome": "Busio",
       "squadra": "Venezia",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Sohm-364",
+      "id": "Sohm-369",
       "nome": "Sohm",
       "squadra": "Venezia",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Perez K.-365",
+      "id": "Perez K.-370",
       "nome": "Perez K.",
       "squadra": "Venezia",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Grillitsch-366",
+      "id": "Grillitsch-371",
       "nome": "Grillitsch",
       "squadra": "Frosinone",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "Cissè A.-367",
+      "id": "Cissè A.-372",
       "nome": "Cissè A.",
       "squadra": "Milan",
       "ruolo": "C",
       "quot": 5
     },
     {
-      "id": "De Roon-368",
+      "id": "De Roon-373",
       "nome": "De Roon",
-      "squadra": "Atalanta",
+      "squadra": "Roma",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Moro N.-369",
+      "id": "Moro N.-374",
       "nome": "Moro N.",
       "squadra": "Bologna",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Dominguez B.-370",
+      "id": "Dominguez B.-375",
       "nome": "Dominguez B.",
       "squadra": "Sassuolo",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Deiola-371",
+      "id": "Deiola-376",
       "nome": "Deiola",
       "squadra": "Cagliari",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Fabbian-372",
+      "id": "Fabbian-377",
       "nome": "Fabbian",
-      "squadra": "Fiorentina",
+      "squadra": "Parma",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Cichella-373",
+      "id": "Cichella-378",
       "nome": "Cichella",
       "squadra": "Frosinone",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Koutsoupias-374",
+      "id": "Koutsoupias-379",
       "nome": "Koutsoupias",
       "squadra": "Frosinone",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Fini-375",
+      "id": "Fini-380",
       "nome": "Fini",
       "squadra": "Frosinone",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Messias-376",
+      "id": "Messias-381",
       "nome": "Messias",
       "squadra": "Genoa",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Luis Henrique-377",
+      "id": "Luis Henrique-382",
       "nome": "Luis Henrique",
       "squadra": "Inter",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Douglas Luiz-378",
+      "id": "Douglas Luiz-383",
       "nome": "Douglas Luiz",
       "squadra": "Juventus",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Cataldi-379",
+      "id": "Cataldi-384",
       "nome": "Cataldi",
       "squadra": "Lazio",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Ngom-380",
+      "id": "Ngom-385",
       "nome": "Ngom",
       "squadra": "Lecce",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Ricci S.-381",
+      "id": "Ricci S.-386",
       "nome": "Ricci S.",
-      "squadra": "Milan",
+      "squadra": "Como",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Loftus-Cheek-382",
+      "id": "Loftus-Cheek-387",
       "nome": "Loftus-Cheek",
       "squadra": "Milan",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Folorunsho-383",
+      "id": "Folorunsho-388",
       "nome": "Folorunsho",
-      "squadra": "Napoli",
+      "squadra": "Monza",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Almqvist-384",
+      "id": "Almqvist-389",
       "nome": "Almqvist",
       "squadra": "Parma",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Diallo O.-385",
+      "id": "Diallo O.-390",
       "nome": "Diallo O.",
       "squadra": "Parma",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "El Aynaoui-386",
+      "id": "El Aynaoui-391",
       "nome": "El Aynaoui",
       "squadra": "Roma",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Fitz-Jim-387",
+      "id": "Fitz-Jim-392",
       "nome": "Fitz-Jim",
       "squadra": "Torino",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Ilkhan-388",
+      "id": "Ilkhan-393",
       "nome": "Ilkhan",
       "squadra": "Torino",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Miller L.-389",
+      "id": "Miller L.-394",
       "nome": "Miller L.",
       "squadra": "Udinese",
       "ruolo": "C",
       "quot": 4
     },
     {
-      "id": "Sulemana I.-390",
+      "id": "Sulemana I.-395",
       "nome": "Sulemana I.",
       "squadra": "Atalanta",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Brescianini-391",
+      "id": "Brescianini-396",
       "nome": "Brescianini",
       "squadra": "Fiorentina",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Gelli F.-392",
+      "id": "Gelli F.-397",
       "nome": "Gelli F.",
       "squadra": "Frosinone",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Hasa-393",
+      "id": "Hasa-398",
       "nome": "Hasa",
       "squadra": "Frosinone",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Masini-394",
+      "id": "Masini-399",
       "nome": "Masini",
       "squadra": "Frosinone",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Stankovic A.-395",
+      "id": "Stankovic A.-400",
       "nome": "Stankovic A.",
       "squadra": "Inter",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Miretti-396",
-      "nome": "Miretti",
-      "squadra": "Juventus",
-      "ruolo": "C",
-      "quot": 3
-    },
-    {
-      "id": "Gorter-397",
+      "id": "Gorter-401",
       "nome": "Gorter",
       "squadra": "Lecce",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Maleh-398",
+      "id": "Maleh-402",
       "nome": "Maleh",
       "squadra": "Lecce",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Musah-399",
+      "id": "Musah-403",
       "nome": "Musah",
       "squadra": "Milan",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Colombo L.-400",
+      "id": "Colombo L.-404",
       "nome": "Colombo L.",
       "squadra": "Monza",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Gilmour-401",
+      "id": "Gilmour-405",
       "nome": "Gilmour",
       "squadra": "Napoli",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Ordonez C.-402",
+      "id": "Ordonez C.-406",
       "nome": "Ordonez C.",
       "squadra": "Parma",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Sorensen O.-403",
+      "id": "Sorensen O.-407",
       "nome": "Sorensen O.",
       "squadra": "Parma",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Aboukhlal-404",
+      "id": "Aboukhlal-408",
       "nome": "Aboukhlal",
       "squadra": "Torino",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "Helgason-405",
+      "id": "Helgason-409",
       "nome": "Helgason",
       "squadra": "Venezia",
       "ruolo": "C",
       "quot": 3
     },
     {
-      "id": "El Azzouzi O.-406",
+      "id": "El Azzouzi O.-410",
       "nome": "El Azzouzi O.",
       "squadra": "Bologna",
       "ruolo": "C",
       "quot": 2
     },
     {
-      "id": "Fadera-407",
+      "id": "Fadera-411",
       "nome": "Fadera",
       "squadra": "Cagliari",
       "ruolo": "C",
       "quot": 2
     },
     {
-      "id": "Venturino-408",
+      "id": "Venturino-412",
       "nome": "Venturino",
       "squadra": "Genoa",
       "ruolo": "C",
       "quot": 2
     },
     {
-      "id": "Ciurria-409",
+      "id": "Ciurria-413",
       "nome": "Ciurria",
       "squadra": "Monza",
       "ruolo": "C",
       "quot": 2
     },
     {
-      "id": "Boloca-410",
+      "id": "Boloca-414",
       "nome": "Boloca",
       "squadra": "Sassuolo",
       "ruolo": "C",
       "quot": 2
     },
     {
-      "id": "Lipani-411",
+      "id": "Lipani-415",
       "nome": "Lipani",
       "squadra": "Sassuolo",
       "ruolo": "C",
       "quot": 2
     },
     {
-      "id": "Chakvetadze-412",
+      "id": "Chakvetadze-416",
       "nome": "Chakvetadze",
       "squadra": "Udinese",
       "ruolo": "C",
       "quot": 2
     },
     {
-      "id": "Duncan-413",
+      "id": "Duncan-417",
       "nome": "Duncan",
       "squadra": "Venezia",
       "ruolo": "C",
       "quot": 2
     },
     {
-      "id": "Forson O.-414",
+      "id": "Forson O.-418",
       "nome": "Forson O.",
       "squadra": "Monza",
       "ruolo": "C",
       "quot": 2
     },
     {
-      "id": "Liteta-415",
+      "id": "Liteta-419",
       "nome": "Liteta",
       "squadra": "Cagliari",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Lahdo-416",
+      "id": "Lahdo-420",
       "nome": "Lahdo",
       "squadra": "Como",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "El Azzouzi A.-417",
+      "id": "El Azzouzi A.-421",
       "nome": "El Azzouzi A.",
       "squadra": "Frosinone",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Kone B.-418",
+      "id": "Kone B.-422",
       "nome": "Kone B.",
       "squadra": "Frosinone",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Belahyane-419",
+      "id": "Belahyane-423",
       "nome": "Belahyane",
       "squadra": "Lazio",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Przyborek-420",
+      "id": "Przyborek-424",
       "nome": "Przyborek",
       "squadra": "Lazio",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Kaba-421",
+      "id": "Kaba-425",
       "nome": "Kaba",
       "squadra": "Lecce",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Fofana Sa.-422",
+      "id": "Fofana Sa.-426",
       "nome": "Fofana Sa.",
       "squadra": "Lecce",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Cremaschi-423",
+      "id": "Cremaschi-427",
       "nome": "Cremaschi",
       "squadra": "Parma",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Iannoni-424",
+      "id": "Iannoni-428",
       "nome": "Iannoni",
       "squadra": "Sassuolo",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Ilic-425",
+      "id": "Ilic-429",
       "nome": "Ilic",
-      "squadra": "Torino",
+      "squadra": "Lecce",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Anjorin-426",
+      "id": "Anjorin-430",
       "nome": "Anjorin",
       "squadra": "Torino",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Zarraga-427",
+      "id": "Zarraga-431",
       "nome": "Zarraga",
       "squadra": "Udinese",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Dagasso-428",
+      "id": "Dagasso-432",
       "nome": "Dagasso",
       "squadra": "Venezia",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Laerke-429",
+      "id": "Laerke-433",
       "nome": "Laerke",
       "squadra": "Lecce",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Comotto-430",
+      "id": "Comotto-434",
       "nome": "Comotto",
       "squadra": "Milan",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Foe Ondoa-431",
+      "id": "Foe Ondoa-435",
       "nome": "Foe Ondoa",
       "squadra": "Monza",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Mout-432",
+      "id": "Mout-436",
       "nome": "Mout",
       "squadra": "Monza",
       "ruolo": "C",
       "quot": 1
     },
     {
-      "id": "Malen-433",
+      "id": "Ciervo-437",
+      "nome": "Ciervo",
+      "squadra": "Cagliari",
+      "ruolo": "C",
+      "quot": 1
+    },
+    {
+      "id": "Malen-438",
       "nome": "Malen",
       "squadra": "Roma",
       "ruolo": "A",
       "quot": 36
     },
     {
-      "id": "Martinez L.-434",
+      "id": "Martinez L.-439",
       "nome": "Martinez L.",
       "squadra": "Inter",
       "ruolo": "A",
       "quot": 34
     },
     {
-      "id": "Thuram-435",
+      "id": "Thuram-440",
       "nome": "Thuram",
       "squadra": "Inter",
       "ruolo": "A",
       "quot": 28
     },
     {
-      "id": "Ramos G.-436",
+      "id": "Ramos G.-441",
       "nome": "Ramos G.",
       "squadra": "Milan",
       "ruolo": "A",
       "quot": 27
     },
     {
-      "id": "Hojlund-437",
+      "id": "Hojlund-442",
       "nome": "Hojlund",
       "squadra": "Napoli",
       "ruolo": "A",
       "quot": 27
     },
     {
-      "id": "Kean-438",
+      "id": "Kean-443",
       "nome": "Kean",
       "squadra": "Fiorentina",
       "ruolo": "A",
       "quot": 25
     },
     {
-      "id": "Kolo Muani-439",
+      "id": "Kolo Muani-444",
       "nome": "Kolo Muani",
       "squadra": "Juventus",
       "ruolo": "A",
       "quot": 25
     },
     {
-      "id": "Yildiz-440",
+      "id": "Yildiz-445",
       "nome": "Yildiz",
       "squadra": "Juventus",
       "ruolo": "A",
       "quot": 22
     },
     {
-      "id": "Douvikas-441",
+      "id": "Douvikas-446",
       "nome": "Douvikas",
       "squadra": "Como",
       "ruolo": "A",
       "quot": 21
     },
     {
-      "id": "Krstovic-442",
+      "id": "Krstovic-447",
       "nome": "Krstovic",
       "squadra": "Atalanta",
       "ruolo": "A",
       "quot": 19
     },
     {
-      "id": "Scamacca-443",
+      "id": "Scamacca-448",
       "nome": "Scamacca",
       "squadra": "Atalanta",
       "ruolo": "A",
       "quot": 19
     },
     {
-      "id": "Davis K.-444",
+      "id": "Davis K.-449",
       "nome": "Davis K.",
       "squadra": "Udinese",
       "ruolo": "A",
       "quot": 19
     },
     {
-      "id": "Leao-445",
-      "nome": "Leao",
-      "squadra": "Milan",
-      "ruolo": "A",
-      "quot": 18
-    },
-    {
-      "id": "Berardi-446",
+      "id": "Berardi-450",
       "nome": "Berardi",
       "squadra": "Sassuolo",
       "ruolo": "A",
       "quot": 18
     },
     {
-      "id": "De Ketelaere-447",
+      "id": "De Ketelaere-451",
       "nome": "De Ketelaere",
       "squadra": "Atalanta",
       "ruolo": "A",
       "quot": 17
     },
     {
-      "id": "Esposito F.P.-448",
+      "id": "Esposito F.P.-452",
       "nome": "Esposito F.P.",
       "squadra": "Inter",
       "ruolo": "A",
       "quot": 17
     },
     {
-      "id": "Dovbyk-449",
+      "id": "Dovbyk-453",
       "nome": "Dovbyk",
       "squadra": "Bologna",
       "ruolo": "A",
       "quot": 15
     },
     {
-      "id": "Dybala-450",
+      "id": "Dybala-454",
       "nome": "Dybala",
       "squadra": "Roma",
       "ruolo": "A",
       "quot": 15
     },
     {
-      "id": "Laurientè-451",
+      "id": "Laurientè-455",
       "nome": "Laurientè",
       "squadra": "Sassuolo",
       "ruolo": "A",
       "quot": 15
     },
     {
-      "id": "Simeone-452",
+      "id": "Simeone-456",
       "nome": "Simeone",
       "squadra": "Torino",
       "ruolo": "A",
       "quot": 15
     },
     {
-      "id": "Raspadori-453",
+      "id": "Raspadori-457",
       "nome": "Raspadori",
       "squadra": "Atalanta",
       "ruolo": "A",
       "quot": 14
     },
     {
-      "id": "Santos A.-454",
+      "id": "Santos A.-458",
       "nome": "Santos A.",
       "squadra": "Napoli",
       "ruolo": "A",
       "quot": 14
     },
     {
-      "id": "Pellegrino M.-455",
+      "id": "Pellegrino M.-459",
       "nome": "Pellegrino M.",
       "squadra": "Fiorentina",
       "ruolo": "A",
       "quot": 14
     },
     {
-      "id": "Castro S.-456",
+      "id": "Castro S.-460",
       "nome": "Castro S.",
       "squadra": "Roma",
       "ruolo": "A",
       "quot": 14
     },
     {
-      "id": "Esposito Se.-457",
+      "id": "Esposito Se.-461",
       "nome": "Esposito Se.",
-      "squadra": "Cagliari",
-      "ruolo": "A",
-      "quot": 13
-    },
-    {
-      "id": "Pinamonti-458",
-      "nome": "Pinamonti",
       "squadra": "Sassuolo",
       "ruolo": "A",
       "quot": 13
     },
     {
-      "id": "Kevin Carlos-459",
+      "id": "Pinamonti-462",
+      "nome": "Pinamonti",
+      "squadra": "Lazio",
+      "ruolo": "A",
+      "quot": 13
+    },
+    {
+      "id": "Kevin Carlos-463",
       "nome": "Kevin Carlos",
       "squadra": "Cagliari",
       "ruolo": "A",
       "quot": 13
     },
     {
-      "id": "Soulè-460",
+      "id": "Soulè-464",
       "nome": "Soulè",
       "squadra": "Roma",
       "ruolo": "A",
       "quot": 12
     },
     {
-      "id": "Adams A.-461",
+      "id": "Adams A.-465",
       "nome": "Adams A.",
       "squadra": "Venezia",
       "ruolo": "A",
       "quot": 12
     },
     {
-      "id": "Diao-462",
+      "id": "Diao-466",
       "nome": "Diao",
       "squadra": "Como",
       "ruolo": "A",
       "quot": 11
     },
     {
-      "id": "Colombo-463",
+      "id": "Colombo-467",
       "nome": "Colombo",
       "squadra": "Genoa",
       "ruolo": "A",
       "quot": 11
     },
     {
-      "id": "Tourè E.-464",
+      "id": "Tourè E.-468",
       "nome": "Tourè E.",
       "squadra": "Parma",
       "ruolo": "A",
       "quot": 11
     },
     {
-      "id": "Dia-465",
+      "id": "Dia-469",
       "nome": "Dia",
       "squadra": "Lazio",
       "ruolo": "A",
       "quot": 10
     },
     {
-      "id": "Ratkov-466",
+      "id": "Ratkov-470",
       "nome": "Ratkov",
       "squadra": "Lazio",
       "ruolo": "A",
       "quot": 10
     },
     {
-      "id": "Bowie-467",
+      "id": "Bowie-471",
       "nome": "Bowie",
       "squadra": "Sassuolo",
       "ruolo": "A",
       "quot": 10
     },
     {
-      "id": "Adams C.-468",
+      "id": "Adams C.-472",
       "nome": "Adams C.",
       "squadra": "Torino",
       "ruolo": "A",
       "quot": 10
     },
     {
-      "id": "Romero D.-469",
+      "id": "Romero D.-473",
       "nome": "Romero D.",
       "squadra": "Parma",
       "ruolo": "A",
       "quot": 10
     },
     {
-      "id": "Ghedjemis-470",
+      "id": "Ghedjemis-474",
       "nome": "Ghedjemis",
       "squadra": "Frosinone",
       "ruolo": "A",
       "quot": 9
     },
     {
-      "id": "David-471",
+      "id": "David-475",
       "nome": "David",
       "squadra": "Juventus",
       "ruolo": "A",
       "quot": 9
     },
     {
-      "id": "Geubbels-472",
+      "id": "Geubbels-476",
       "nome": "Geubbels",
       "squadra": "Lecce",
       "ruolo": "A",
       "quot": 9
     },
     {
-      "id": "Cutrone-473",
+      "id": "Cutrone-477",
       "nome": "Cutrone",
       "squadra": "Monza",
       "ruolo": "A",
       "quot": 9
     },
     {
-      "id": "Piccoli-474",
+      "id": "Bobcek-478",
+      "nome": "Bobcek",
+      "squadra": "Frosinone",
+      "ruolo": "A",
+      "quot": 9
+    },
+    {
+      "id": "Piccoli-479",
       "nome": "Piccoli",
       "squadra": "Bologna",
       "ruolo": "A",
       "quot": 8
     },
     {
-      "id": "Vitinha O.-475",
+      "id": "Vitinha O.-480",
       "nome": "Vitinha O.",
       "squadra": "Genoa",
       "ruolo": "A",
       "quot": 8
     },
     {
-      "id": "Yeboah J.-476",
+      "id": "Yeboah J.-481",
       "nome": "Yeboah J.",
       "squadra": "Venezia",
       "ruolo": "A",
       "quot": 8
     },
     {
-      "id": "Rrahmani Al.-477",
+      "id": "Rrahmani Al.-482",
       "nome": "Rrahmani Al.",
       "squadra": "Venezia",
       "ruolo": "A",
       "quot": 8
     },
     {
-      "id": "Osmajic-478",
+      "id": "Osmajic-483",
       "nome": "Osmajic",
       "squadra": "Genoa",
       "ruolo": "A",
       "quot": 8
     },
     {
-      "id": "Raimondo-479",
+      "id": "Raimondo-484",
       "nome": "Raimondo",
       "squadra": "Frosinone",
       "ruolo": "A",
       "quot": 7
     },
     {
-      "id": "Bonny-480",
+      "id": "Bonny-485",
       "nome": "Bonny",
       "squadra": "Inter",
       "ruolo": "A",
       "quot": 7
     },
     {
-      "id": "Stulic-481",
+      "id": "Stulic-486",
       "nome": "Stulic",
       "squadra": "Lecce",
       "ruolo": "A",
       "quot": 7
     },
     {
-      "id": "Zapata D.-482",
+      "id": "Zapata D.-487",
       "nome": "Zapata D.",
       "squadra": "Torino",
       "ruolo": "A",
       "quot": 7
     },
     {
-      "id": "Sulemana K.-483",
+      "id": "Sulemana K.-488",
       "nome": "Sulemana K.",
       "squadra": "Atalanta",
       "ruolo": "A",
       "quot": 6
     },
     {
-      "id": "Mutandwa-484",
+      "id": "Mutandwa-489",
       "nome": "Mutandwa",
       "squadra": "Cagliari",
       "ruolo": "A",
       "quot": 6
     },
     {
-      "id": "Boga-485",
+      "id": "Boga-490",
       "nome": "Boga",
       "squadra": "Juventus",
       "ruolo": "A",
       "quot": 6
     },
     {
-      "id": "Noslin-486",
+      "id": "Noslin-491",
       "nome": "Noslin",
       "squadra": "Lazio",
       "ruolo": "A",
       "quot": 6
     },
     {
-      "id": "Gimenez-487",
+      "id": "Gimenez-492",
       "nome": "Gimenez",
       "squadra": "Milan",
       "ruolo": "A",
       "quot": 6
     },
     {
-      "id": "Neres-488",
+      "id": "Neres-493",
       "nome": "Neres",
       "squadra": "Napoli",
       "ruolo": "A",
       "quot": 6
     },
     {
-      "id": "Maldini-489",
+      "id": "Maldini-494",
       "nome": "Maldini",
       "squadra": "Cagliari",
       "ruolo": "A",
       "quot": 5
     },
     {
-      "id": "Camarda-490",
+      "id": "Camarda-495",
       "nome": "Camarda",
       "squadra": "Milan",
       "ruolo": "A",
       "quot": 5
     },
     {
-      "id": "Mota-491",
+      "id": "Mota-496",
       "nome": "Mota",
       "squadra": "Monza",
       "ruolo": "A",
       "quot": 5
     },
     {
-      "id": "Varela G.-492",
+      "id": "Varela G.-497",
       "nome": "Varela G.",
       "squadra": "Monza",
       "ruolo": "A",
       "quot": 5
     },
     {
-      "id": "Frigan-493",
+      "id": "Frigan-498",
       "nome": "Frigan",
       "squadra": "Parma",
       "ruolo": "A",
       "quot": 5
     },
     {
-      "id": "Adorante-494",
+      "id": "Adorante-499",
       "nome": "Adorante",
       "squadra": "Venezia",
       "ruolo": "A",
       "quot": 5
     },
     {
-      "id": "Milik-495",
+      "id": "Milik-500",
       "nome": "Milik",
       "squadra": "Juventus",
       "ruolo": "A",
       "quot": 5
     },
     {
-      "id": "Borrelli-496",
+      "id": "Birligea-501",
+      "nome": "Birligea",
+      "squadra": "Frosinone",
+      "ruolo": "A",
+      "quot": 5
+    },
+    {
+      "id": "Ngonge-502",
+      "nome": "Ngonge",
+      "squadra": "Monza",
+      "ruolo": "A",
+      "quot": 5
+    },
+    {
+      "id": "Borrelli-503",
       "nome": "Borrelli",
       "squadra": "Cagliari",
       "ruolo": "A",
       "quot": 4
     },
     {
-      "id": "Mendy P.-497",
+      "id": "Mendy P.-504",
       "nome": "Mendy P.",
       "squadra": "Cagliari",
       "ruolo": "A",
       "quot": 4
     },
     {
-      "id": "Morata-498",
-      "nome": "Morata",
-      "squadra": "Como",
-      "ruolo": "A",
-      "quot": 4
-    },
-    {
-      "id": "Kvernadze-499",
+      "id": "Kvernadze-505",
       "nome": "Kvernadze",
       "squadra": "Frosinone",
       "ruolo": "A",
       "quot": 4
     },
     {
-      "id": "Havel-500",
+      "id": "Havel-506",
       "nome": "Havel",
       "squadra": "Genoa",
       "ruolo": "A",
       "quot": 4
     },
     {
-      "id": "Giovane-501",
+      "id": "Giovane-507",
       "nome": "Giovane",
       "squadra": "Napoli",
       "ruolo": "A",
       "quot": 4
     },
     {
-      "id": "Lang-502",
+      "id": "Lang-508",
       "nome": "Lang",
       "squadra": "Napoli",
       "ruolo": "A",
       "quot": 4
     },
     {
-      "id": "Lucca-503",
+      "id": "Lucca-509",
       "nome": "Lucca",
       "squadra": "Napoli",
       "ruolo": "A",
       "quot": 4
     },
     {
-      "id": "Kulenovic-504",
+      "id": "Kulenovic-510",
       "nome": "Kulenovic",
       "squadra": "Torino",
       "ruolo": "A",
       "quot": 4
     },
     {
-      "id": "Gueye-505",
+      "id": "Gueye-511",
       "nome": "Gueye",
       "squadra": "Udinese",
       "ruolo": "A",
       "quot": 4
     },
     {
-      "id": "Robinson J.-506",
+      "id": "Robinson J.-512",
       "nome": "Robinson J.",
       "squadra": "Monza",
       "ruolo": "A",
       "quot": 4
     },
     {
-      "id": "Kuhn-507",
+      "id": "Fatah-513",
+      "nome": "Fatah",
+      "squadra": "Lecce",
+      "ruolo": "A",
+      "quot": 4
+    },
+    {
+      "id": "Kuhn-514",
       "nome": "Kuhn",
       "squadra": "Como",
       "ruolo": "A",
       "quot": 3
     },
     {
-      "id": "Ekhator-508",
+      "id": "Ekhator-515",
       "nome": "Ekhator",
       "squadra": "Juventus",
       "ruolo": "A",
       "quot": 3
     },
     {
-      "id": "N'Dri-509",
+      "id": "N'Dri-516",
       "nome": "N'Dri",
       "squadra": "Lecce",
       "ruolo": "A",
       "quot": 3
     },
     {
-      "id": "Elphege-510",
+      "id": "Elphege-517",
       "nome": "Elphege",
       "squadra": "Parma",
       "ruolo": "A",
       "quot": 3
     },
     {
-      "id": "Lontani-511",
+      "id": "Lontani-518",
       "nome": "Lontani",
       "squadra": "Parma",
       "ruolo": "A",
       "quot": 2
     },
     {
-      "id": "Trepy-512",
+      "id": "Trepy-519",
       "nome": "Trepy",
       "squadra": "Cagliari",
       "ruolo": "A",
       "quot": 1
     },
     {
-      "id": "Azon-513",
+      "id": "Azon-520",
       "nome": "Azon",
       "squadra": "Como",
       "ruolo": "A",
       "quot": 1
     },
     {
-      "id": "Vaz-514",
+      "id": "Vaz-521",
       "nome": "Vaz",
       "squadra": "Roma",
       "ruolo": "A",
       "quot": 1
     },
     {
-      "id": "Bayo V.-515",
+      "id": "Bayo V.-522",
       "nome": "Bayo V.",
       "squadra": "Udinese",
       "ruolo": "A",
       "quot": 1
     },
     {
-      "id": "Lisman-516",
+      "id": "Lisman-523",
       "nome": "Lisman",
       "squadra": "Venezia",
       "ruolo": "A",
       "quot": 1
     },
     {
-      "id": "Lauberbach-517",
+      "id": "Lauberbach-524",
       "nome": "Lauberbach",
       "squadra": "Venezia",
       "ruolo": "A",
       "quot": 1
     },
     {
-      "id": "De Martis-518",
+      "id": "De Martis-525",
       "nome": "De Martis",
       "squadra": "Parma",
       "ruolo": "A",
       "quot": 1
     }
   ],
-  "fetchedAt": "2026-08-26T11:26:50.824Z",
+  "fetchedAt": "2026-08-31T09:58:15.085Z",
   "source": "aggiornamento manuale",
-  "count": 517
+  "count": 524
 }
