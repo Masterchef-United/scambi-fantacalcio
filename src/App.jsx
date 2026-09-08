@@ -1,11 +1,11 @@
 import { useState, useMemo, useRef, useEffect } from "react";
 import * as XLSX from "xlsx";
-import { Upload, X, Search, CheckCircle2, XCircle, ArrowLeftRight, FileSpreadsheet, RotateCcw } from "lucide-react";
+import { Upload, X, Search, CheckCircle2, XCircle, ArrowLeftRight, FileSpreadsheet, RotateCcw, ChevronDown } from "lucide-react";
 
 // ---------- Design tokens ----------
 // Palette ispirata al cartellino dell'arbitro + tabellone da stadio
 const C = {
-  pitch: "#0F3D2E",      // verde campo profondo 0F3D2E
+  pitch: "#0F3D2E",      // verde campo profondo
   pitchDark: "#0A2A1F",
   chalk: "#F6F3EA",      // bianco gesso
   ink: "#0B1F17",
@@ -13,6 +13,14 @@ const C = {
   red: "#D6483F",        // cartellino rosso
   green: "#4CAE6B",      // valido
   line: "rgba(246,243,234,0.14)",
+};
+
+// ---------- Leghe disponibili ----------
+// "mantra: true" attiva lo schema Mantra: listone diverso e nessun vincolo di ruolo 1-a-1.
+const LEGHE = {
+  pasta: { id: "pasta", nome: "Pasta con le cozze", mantra: false, file: "/listone.json" },
+  talsano: { id: "talsano", nome: "Talsano 74122", mantra: false, file: "/listone.json" },
+  mantra: { id: "mantra", nome: "Mantra con le vongole", mantra: true, file: "/listone-mantra.json" },
 };
 
 // ---------- Regola RG ----------
@@ -23,7 +31,7 @@ function fasciaDa(media) {
   return { rg: 6, label: "60+" };
 }
 
-// ---------- Regola ruoli ----------
+// ---------- Regola ruoli (solo modalità classica) ----------
 // Ogni ruolo ceduto deve essere compensato dallo stesso ruolo, nella stessa quantità, in ricezione.
 function conteggioRuoli(players) {
   const counts = {};
@@ -43,18 +51,31 @@ function ruoliCompatibili(cediCounts, ricevCounts) {
 }
 
 const RUOLO_LABEL = {
+  // Schema classico
   P: { s: "Portiere", p: "Portieri" },
   D: { s: "Difensore", p: "Difensori" },
   C: { s: "Centrocampista", p: "Centrocampisti" },
   A: { s: "Attaccante", p: "Attaccanti" },
+  // Schema Mantra
+  POR: { s: "Portiere", p: "Portieri" },
+  DS: { s: "Difensore sinistro", p: "Difensori sinistri" },
+  DD: { s: "Difensore destro", p: "Difensori destri" },
+  DC: { s: "Difensore centrale", p: "Difensori centrali" },
+  B: { s: "Braccetto", p: "Braccetti" },
+  E: { s: "Esterno", p: "Esterni" },
+  M: { s: "Mediano", p: "Mediani" },
+  W: { s: "Ala", p: "Ali" },
+  T: { s: "Trequartista", p: "Trequartisti" },
+  PC: { s: "Prima punta", p: "Prime punte" },
 };
 
-// Colori distintivi per ruolo, usati come accento su badge e chip
+// Colori distintivi per ruolo, usati come accento su badge e chip.
+// I ruoli Mantra ereditano il colore del "macro-ruolo" corrispondente per coerenza visiva.
 const RUOLO_COLOR = {
-  P: "#E8A33D", // ambra
-  D: "#5AA9E6", // azzurro
-  C: "#52B788", // verde turf
-  A: "#D6483F", // rosso
+  P: "#E8A33D", POR: "#E8A33D", // portieri: ambra
+  D: "#5AA9E6", DS: "#5AA9E6", DD: "#5AA9E6", DC: "#5AA9E6", B: "#5AA9E6", // difensori: azzurro
+  C: "#52B788", E: "#52B788", M: "#52B788", W: "#52B788", T: "#52B788", // centrocampisti: verde
+  A: "#D6483F", PC: "#D6483F", // attaccanti: rosso
 };
 function coloreRuolo(r) {
   return RUOLO_COLOR[r] || "rgba(246,243,234,0.4)";
@@ -72,31 +93,43 @@ function descriviConteggio(counts) {
 }
 
 // ---------- Parsing listone (per il caricamento manuale opzionale) ----------
-function parseListone(workbook) {
+function normalizzaHeader(h) {
+  return String(h).trim().toLowerCase().replace(/[.\s]/g, "");
+}
+
+function parseListone(workbook, mantra = false) {
   const sheet = workbook.Sheets[workbook.SheetNames[0]];
   const rows = XLSX.utils.sheet_to_json(sheet, { header: 1, raw: true, defval: "" });
 
   let headerIdx = -1;
   let cols = {};
   for (let i = 0; i < Math.min(rows.length, 10); i++) {
-    const row = rows[i].map((c) => String(c).trim().toLowerCase());
-    const nomeIdx = row.findIndex((c) => c === "nome" || c === "calciatore" || c === "giocatore");
+    const norm = rows[i].map(normalizzaHeader);
+    const nomeIdx = norm.findIndex((c) => c === "nome" || c === "calciatore" || c === "giocatore");
     if (nomeIdx !== -1) {
       headerIdx = i;
-      row.forEach((c, idx) => {
-        if (c === "nome" || c === "calciatore" || c === "giocatore") cols.nome = idx;
-        if (c === "squadra") cols.squadra = idx;
-        if (c === "r" || c === "ruolo") cols.ruolo = idx;
-        if (c === "qt.a" || c === "qta" || c === "quotazione" || c === "quotazione attuale") cols.quot = idx;
-        if (cols.quot === undefined && (c === "qt.i" || c === "qti")) cols.quot = idx;
-      });
+      const trova = (candidati) => {
+        for (const cand of candidati) {
+          const idx = norm.indexOf(cand);
+          if (idx !== -1) return idx;
+        }
+        return undefined;
+      };
+      cols.nome = nomeIdx;
+      cols.squadra = trova(["squadra"]);
+      cols.ruolo = mantra ? trova(["rm", "ruolomantra"]) : trova(["r", "ruolo"]);
+      cols.quot = mantra
+        ? trova(["qtam", "quotazionemantra", "qtim"])
+        : trova(["qta", "quotazione", "quotazioneattuale", "qti"]);
       break;
     }
   }
 
   if (headerIdx === -1 || cols.nome === undefined || cols.quot === undefined) {
     throw new Error(
-      "Non riesco a riconoscere le colonne del file. Assicurati che il listone abbia colonne come 'Nome' e 'Qt.A' (quotazione attuale)."
+      mantra
+        ? "Non riesco a riconoscere le colonne Mantra (RM / Qt.A M) nel file caricato."
+        : "Non riesco a riconoscere le colonne del file. Assicurati che il listone abbia colonne come 'Nome' e 'Qt.A'."
     );
   }
 
@@ -104,8 +137,7 @@ function parseListone(workbook) {
   for (let i = headerIdx + 1; i < rows.length; i++) {
     const r = rows[i];
     const nome = String(r[cols.nome] ?? "").trim();
-    const quotRaw = r[cols.quot];
-    const quot = Number(quotRaw);
+    const quot = Number(r[cols.quot]);
     if (!nome || Number.isNaN(quot)) continue;
     players.push({
       id: `${nome}-${i}`,
@@ -211,14 +243,15 @@ function PlayerSearch({ listone, onAdd, disabledIds, accent }) {
                 <span
                   style={{
                     flexShrink: 0,
-                    width: 24,
+                    minWidth: 24,
                     height: 24,
+                    padding: "0 4px",
                     borderRadius: 7,
                     background: `${coloreRuolo(p.ruolo)}26`,
                     color: coloreRuolo(p.ruolo),
                     fontFamily: "'Oswald', sans-serif",
                     fontWeight: 700,
-                    fontSize: 11.5,
+                    fontSize: 11,
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -274,14 +307,15 @@ function PlayerChip({ player, onRemove, accent }) {
           <span
             style={{
               flexShrink: 0,
-              width: 26,
+              minWidth: 26,
               height: 26,
+              padding: "0 4px",
               borderRadius: 8,
               background: `${coloreRuolo(player.ruolo)}26`,
               color: coloreRuolo(player.ruolo),
               fontFamily: "'Oswald', sans-serif",
               fontWeight: 700,
-              fontSize: 12,
+              fontSize: 11.5,
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -416,7 +450,115 @@ function Colonna({ titolo, accent, listone, players, setPlayers, otherIds }) {
   );
 }
 
+// ---------- Overlay di selezione lega ----------
+function SelezioneLega({ onConferma }) {
+  const [scelta, setScelta] = useState("");
+
+  return (
+    <div
+      style={{
+        position: "fixed",
+        inset: 0,
+        zIndex: 100,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: 20,
+        background: "rgba(5,15,11,0.82)",
+        backdropFilter: "blur(6px)",
+        WebkitBackdropFilter: "blur(6px)",
+      }}
+    >
+      <div
+        style={{
+          width: "100%",
+          maxWidth: 460,
+          background: `linear-gradient(160deg, ${C.pitch}, ${C.pitchDark})`,
+          border: `1px solid ${C.line}`,
+          borderRadius: 22,
+          padding: "36px 28px",
+          textAlign: "center",
+          boxShadow: "0 30px 70px rgba(0,0,0,0.5)",
+        }}
+      >
+        <h2
+          style={{
+            fontFamily: "'Oswald', sans-serif",
+            fontWeight: 700,
+            fontSize: "clamp(24px, 6vw, 32px)",
+            color: C.chalk,
+            margin: "0 0 10px",
+            textTransform: "uppercase",
+            letterSpacing: 0.5,
+          }}
+        >
+          Scegli la tua lega
+        </h2>
+        <p style={{ color: "rgba(246,243,234,0.6)", fontSize: 15, margin: "0 0 26px" }}>
+          Il funzionamento dello scambio cambia in base alla lega selezionata.
+        </p>
+
+        <div style={{ position: "relative", marginBottom: 22 }}>
+          <select
+            value={scelta}
+            onChange={(e) => setScelta(e.target.value)}
+            style={{
+              width: "100%",
+              appearance: "none",
+              WebkitAppearance: "none",
+              background: C.pitchDark,
+              color: scelta ? C.chalk : "rgba(246,243,234,0.5)",
+              border: `1.5px solid ${C.line}`,
+              borderRadius: 14,
+              padding: "16px 44px 16px 18px",
+              fontSize: 17,
+              fontFamily: "inherit",
+              fontWeight: 600,
+              cursor: "pointer",
+            }}
+          >
+            <option value="" disabled>
+              Seleziona una lega...
+            </option>
+            {Object.values(LEGHE).map((l) => (
+              <option key={l.id} value={l.id}>
+                {l.nome}
+              </option>
+            ))}
+          </select>
+          <ChevronDown
+            size={20}
+            color="rgba(246,243,234,0.55)"
+            style={{ position: "absolute", right: 16, top: "50%", transform: "translateY(-50%)", pointerEvents: "none" }}
+          />
+        </div>
+
+        <button
+          className="btn-grow"
+          disabled={!scelta}
+          onClick={() => onConferma(scelta)}
+          style={{
+            width: "100%",
+            background: scelta ? C.yellow : "rgba(246,243,234,0.12)",
+            color: scelta ? C.ink : "rgba(246,243,234,0.4)",
+            border: "none",
+            borderRadius: 14,
+            padding: "15px 20px",
+            fontWeight: 700,
+            fontSize: 16,
+            cursor: scelta ? "pointer" : "default",
+          }}
+        >
+          Conferma
+        </button>
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
+  const [legaId, setLegaId] = useState(null);
+
   const [listone, setListone] = useState([]);
   const [autoStatus, setAutoStatus] = useState("checking"); // checking | ok | unavailable
   const [autoFetchedAt, setAutoFetchedAt] = useState(null);
@@ -432,13 +574,18 @@ export default function App() {
   const [cedi, setCedi] = useState([]);
   const [ricevi, setRicevi] = useState([]);
 
-  // Caricamento del listone dal file statico public/listone.json,
-  // generato periodicamente da chi gestisce la lega tramite scripts/converti-listone.mjs.
+  const lega = legaId ? LEGHE[legaId] : null;
+  const mantra = lega ? lega.mantra : false;
+
+  // Caricamento del listone corretto (classico o Mantra) in base alla lega scelta,
+  // dal file statico generato da chi gestisce la lega tramite scripts/converti-listone.mjs.
   useEffect(() => {
+    if (!lega) return;
     let cancelled = false;
+    setAutoStatus("checking");
     (async () => {
       try {
-        const res = await fetch("/listone.json");
+        const res = await fetch(lega.file);
         if (!res.ok) throw new Error("non disponibile");
         const data = await res.json();
         if (cancelled || !data.players?.length) return;
@@ -453,7 +600,7 @@ export default function App() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [lega]);
 
   // Caricamento manuale opzionale: sostituisce il listone SOLO in questa sessione/browser,
   // senza toccare il file condiviso con il resto della lega.
@@ -464,7 +611,7 @@ export default function App() {
     try {
       const buf = await file.arrayBuffer();
       const wb = XLSX.read(buf, { type: "array" });
-      const players = parseListone(wb);
+      const players = parseListone(wb, mantra);
       setListone(players);
       setManualFileName(file.name);
       setManualActive(true);
@@ -486,6 +633,18 @@ export default function App() {
     setRicevi([]);
   };
 
+  const cambiaLega = () => {
+    setLegaId(null);
+    setListone([]);
+    setAutoListone([]);
+    setAutoStatus("checking");
+    setManualActive(false);
+    setManualFileName("");
+    setShowManualPanel(false);
+    setCedi([]);
+    setRicevi([]);
+  };
+
   const totalCedi = cedi.reduce((s, p) => s + p.quot, 0);
   const totalRicevi = ricevi.reduce((s, p) => s + p.quot, 0);
   const media = (totalCedi + totalRicevi) / 2;
@@ -496,9 +655,15 @@ export default function App() {
 
   const cediRuoli = useMemo(() => conteggioRuoli(cedi), [cedi]);
   const ricevRuoli = useMemo(() => conteggioRuoli(ricevi), [ricevi]);
-  const ruoliOk = hasPlayers ? ruoliCompatibili(cediRuoli, ricevRuoli) : null;
+  // In modalità Mantra non c'è vincolo di ruolo 1-a-1: conta solo il rispetto dell'RG.
+  const ruoliOk = mantra ? true : hasPlayers ? ruoliCompatibili(cediRuoli, ricevRuoli) : null;
 
   const valido = hasPlayers ? rgOk && ruoliOk : null;
+
+  // Finché non è stata scelta una lega, mostra solo l'overlay di selezione.
+  if (!legaId) {
+    return <SelezioneLega onConferma={(id) => setLegaId(id)} />;
+  }
 
   return (
     <div
@@ -539,7 +704,6 @@ export default function App() {
         .btn-grow {
           transition: transform 0.15s ease;
         }
-
         .btn-grow:hover {
           transform: scale(1.05);
         }
@@ -548,25 +712,6 @@ export default function App() {
       <div style={{ maxWidth: 880, margin: "0 auto" }}>
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: 30 }}>
-          {/*<div
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 8,
-              background: "rgba(242,194,48,0.1)",
-              border: `1px solid rgba(242,194,48,0.3)`,
-              borderRadius: 999,
-              padding: "6px 16px",
-              fontSize: 11.5,
-              letterSpacing: 1.5,
-              textTransform: "uppercase",
-              color: C.yellow,
-              marginBottom: 16,
-              fontWeight: 600,
-            }}
-          >
-            <ArrowLeftRight size={13} /> Validatore scambi
-          </div> */}
           <h1
             style={{
               fontFamily: "'Oswald', sans-serif",
@@ -575,50 +720,43 @@ export default function App() {
               margin: 0,
               letterSpacing: 0.5,
               textShadow: "0 4px 24px rgba(0,0,0,0.25)",
-              marginBottom: 30,
+              marginBottom: 10,
             }}
           >
-            Scambio pasta con le cozze
+            Scambio {lega.nome}
           </h1>
-          <p style={{ color: "rgba(246,243,234,0.6)", fontSize: 14.5, marginTop: 10 }}>
-            Scegli chi cedi e chi ricevi: il verdetto è automatico.
+          <p style={{ color: "rgba(246,243,234,0.6)", fontSize: 14.5, margin: "0 0 10px" }}>
+            {mantra
+              ? "Modalità Mantra: nessun vincolo di ruolo, conta solo il rispetto dell'RG."
+              : "Scegli chi cedi e chi ricevi: il verdetto è automatico."}
           </p>
+          <button
+            onClick={cambiaLega}
+            style={{
+              background: "transparent",
+              border: "none",
+              color: "rgba(246,243,234,0.45)",
+              fontSize: 12.5,
+              textDecoration: "underline",
+              cursor: "pointer",
+              padding: 4,
+            }}
+          >
+            Cambia lega
+          </button>
         </div>
 
-        {/* Stato listone (automatico da public/listone.json, con opzione di override manuale) */}
+        {/* Stato listone (automatico dal file della lega scelta, con opzione di override manuale) */}
         <div
           className="status-card"
           style={{
-            //background: "rgba(11,31,23,0.55)",
-            //border: `1px solid ${C.line}`,
             borderRadius: 16,
             padding: 18,
             marginBottom: 22,
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: 14, flexWrap: "wrap" }}>
-            {/*<div
-              style={{
-                width: 42,
-                height: 42,
-                borderRadius: 100,
-                background: manualActive
-                  ? "rgba(242,194,48,0.12)"
-                  : autoStatus === "ok"
-                  ? "rgba(76,174,107,0.12)"
-                  : "rgba(242,194,48,0.12)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                flexShrink: 0,
-              }}
-            >
-              <FileSpreadsheet
-                size={20}
-                color={manualActive ? C.yellow : autoStatus === "ok" ? C.green : C.yellow}
-              />
-            </div>*/}
-            <div style={{ flex: 1, minWidth: 200,  }}>
+            <div style={{ flex: 1, minWidth: 200 }}>
               <div style={{ fontWeight: 600, fontSize: 14.5, textAlign: "left" }}>
                 {manualActive
                   ? "Listone caricato manualmente (temporaneo)"
@@ -634,14 +772,13 @@ export default function App() {
                   : autoStatus === "ok" && autoFetchedAt
                   ? `${listone.length} calciatori · aggiornato il ${new Date(autoFetchedAt).toLocaleString("it-IT")}`
                   : autoStatus === "unavailable"
-                  ? "Il file public/listone.json non è stato trovato. Puoi caricarne uno manualmente qui sotto."
+                  ? `Il file ${lega.file} non è stato trovato. Puoi caricarne uno manualmente qui sotto.`
                   : "Un attimo..."}
               </div>
             </div>
             <div style={{ display: "flex", gap: 8, flexShrink: 0 }}>
               {manualActive && autoListone.length > 0 && (
                 <button
-                  className="btn-grow"
                   onClick={tornaAlListoneUfficiale}
                   style={{
                     display: "flex",
@@ -650,8 +787,8 @@ export default function App() {
                     background: "transparent",
                     border: `1px solid ${C.line}`,
                     color: "rgba(246,243,234,0.75)",
-                    borderRadius: 20,
-                    padding: "10px 14px",
+                    borderRadius: 10,
+                    padding: "9px 12px",
                     fontSize: 12.5,
                     cursor: "pointer",
                   }}
@@ -663,16 +800,15 @@ export default function App() {
                 className="btn-grow"
                 onClick={() => setShowManualPanel((v) => !v)}
                 style={{
-                  width: "192px",
                   display: "flex",
                   alignItems: "center",
                   gap: 6,
                   background: C.yellow,
-                  color: C.ink,
                   fontWeight: 700,
                   border: `1px solid ${C.line}`,
+                  color: "rgba(0, 0, 0, 1)",
                   borderRadius: 20,
-                  padding: "10px 14px",
+                  padding: "9px 12px",
                   fontSize: 12.5,
                   cursor: "pointer",
                 }}
@@ -701,7 +837,10 @@ export default function App() {
                 onChange={(e) => handleManualFile(e.target.files?.[0])}
                 style={{ display: "none" }}
               />
-              <span className="manual-hint" style={{ flex: 1, minWidth: 200, fontSize: 12, color: "rgba(246,243,234,0.5)", textAlign: "left" }}>
+              <span
+                className="manual-hint"
+                style={{ flex: 1, minWidth: 200, fontSize: 12, color: "rgba(246,243,234,0.5)", textAlign: "left" }}
+              >
                 Utile solo se il listone ufficiale non è ancora aggiornato o non è disponibile. Vale solo per te, in
                 questo momento: non viene condiviso con gli altri utenti dell'app.
               </span>
@@ -710,18 +849,17 @@ export default function App() {
                 onClick={() => fileInputRef.current?.click()}
                 disabled={manualLoading}
                 style={{
-                  width: "192px",
                   display: "flex",
                   flexShrink: 0,
                   alignItems: "center",
                   gap: 8,
                   background: C.yellow,
                   color: C.ink,
+                  border: "none",
                   borderRadius: 20,
-                  padding: "10px 14px",
+                  padding: "10px 16px",
                   fontWeight: 700,
                   fontSize: 12.5,
-                  border: `1px solid ${C.line}`,
                   cursor: manualLoading ? "default" : "pointer",
                   opacity: manualLoading ? 0.7 : 1,
                 }}
@@ -756,8 +894,8 @@ export default function App() {
               style={{
                 fontFamily: "'Oswald', sans-serif",
                 fontWeight: 700,
-                fontSize: 32,
-                lineHeight: 1.3,
+                fontSize: "clamp(20px, 4.5vw, 32px)",
+                lineHeight: 1.35,
                 letterSpacing: 1,
                 textTransform: "uppercase",
                 textAlign: "center",
@@ -895,7 +1033,7 @@ export default function App() {
                   {valido ? "Scambio valido" : "Scambio non valido"}
                 </div>
                 <div style={{ fontSize: 13.5, color: "rgba(246,243,234,0.65)", lineHeight: 1.6, marginTop: 6, maxWidth: 420 }}>
-                  {!ruoliOk && (
+                  {!mantra && !ruoliOk && (
                     <div>
                       Ruoli non compensati: cedi {descriviConteggio(cediRuoli)}, ricevi {descriviConteggio(ricevRuoli)}.
                     </div>
@@ -907,7 +1045,8 @@ export default function App() {
                   )}
                   {valido && (
                     <div>
-                      Ruoli compensati correttamente e differenza di {diff} {diff === 1 ? "punto" : "punti"} entro il range massimo di {fascia.rg}.
+                      {!mantra && "Ruoli compensati correttamente e differenza"}
+                      {mantra && "Differenza"} di {diff} {diff === 1 ? "punto" : "punti"} entro il range massimo di {fascia.rg}.
                     </div>
                   )}
                 </div>
@@ -929,9 +1068,13 @@ export default function App() {
                 { label: "Fascia", value: fascia.label, color: C.yellow, small: true },
                 { label: "RG massimo", value: fascia.rg, color: C.yellow },
                 { label: "Differenza", value: diff, color: rgOk ? C.green : C.red },
-                { label: "Ruoli cedi", value: descriviConteggio(cediRuoli), color: C.red, small: true },
-                { label: "Ruoli ricevi", value: descriviConteggio(ricevRuoli), color: C.green, small: true },
-                { label: "Ruoli compensati", value: ruoliOk ? "Sì" : "No", color: ruoliOk ? C.green : C.red },
+                ...(mantra
+                  ? []
+                  : [
+                      { label: "Ruoli cedi", value: descriviConteggio(cediRuoli), color: C.red, small: true },
+                      { label: "Ruoli ricevi", value: descriviConteggio(ricevRuoli), color: C.green, small: true },
+                      { label: "Ruoli compensati", value: ruoliOk ? "Sì" : "No", color: ruoliOk ? C.green : C.red },
+                    ]),
               ].map((s) => (
                 <div
                   key={s.label}
@@ -969,9 +1112,9 @@ export default function App() {
           · 5 (Per gli scambi con media tra 41–60) <br />
           · 6 (Per gli scambi con media oltre 60+) <br />
           Valido se |ceduto − ricevuto| ≤ RG.
+          {!mantra && <> Inoltre ogni ruolo ceduto va compensato con lo stesso ruolo in ricezione.</>}
         </p>
       </div>
-
     </div>
   );
 }
