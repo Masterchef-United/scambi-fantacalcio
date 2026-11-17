@@ -624,8 +624,8 @@
       "quot": 12
     },
     {
-      "id": "N'Dicka-91",
-      "nome": "N'Dicka",
+      "id": "Ndicka-91",
+      "nome": "Ndicka",
       "squadra": "Roma",
       "ruolo": "DC",
       "quot": 12
@@ -3774,7 +3774,7 @@
       "quot": 1
     }
   ],
-  "fetchedAt": "2026-11-13T17:16:06.909Z",
+  "fetchedAt": "2026-11-17T12:48:37.809Z",
   "source": "aggiornamento manuale",
   "count": 539
 }
